@@ -1,0 +1,3156 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15",
+      "category": "mobile",
+      "slug": "iphone-15",
+      "brand": "iPhone",
+      "stock": 8,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone15.webp",
+      "desc": "گوشی موبایل اپل iPhone 15 CH/A دو سیم کارت رم 6 گیگابایت - رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 15، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 210000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 215000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "iPhone 13",
+      "category": "mobile",
+      "slug": "iphone-15-plus",
+      "brand": "iPhone",
+      "stock": 22,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone13.png",
+      "desc": "گوشی موبایل اپل مدل iPhone 13 HN/A تک سیم کارت رم 4 گیگابایت رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 15 Plus، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 170000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 180000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "iPhone 15 Pro",
+      "category": "mobile",
+      "slug": "iphone-15-pro",
+      "brand": "iPhone",
+      "stock": 17,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone15pro.webp",
+      "desc": "گوشی موبایل اپل iPhone 15 Pro ZA/A دو سیم کارت ظرفیت رم 8 گیگابایت",
+      "longDesc": "توضیحات کامل درباره iPhone 15 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 280000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 290000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "iPhone 15 Pro Max",
+      "category": "mobile",
+      "slug": "iphone-15-pro-max",
+      "brand": "iPhone",
+      "stock": 33,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone15promax.webp",
+      "desc": "گوشی موبایل اپل iPhone 15 Pro Max ZA/A دو سیم کارت ظرفیت رم 8 گیگابایت",
+      "longDesc": "توضیحات کامل درباره iPhone 15 Pro Max، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 300000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 320000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "iPhone 16",
+      "category": "mobile",
+      "slug": "iphone-16",
+      "brand": "iPhone",
+      "stock": 6,
+      "hasDiscount": true,
+      "discount": 20,
+      "discountExpiresAt": "2026-09-30T23:59:59",
+      "image": "/productsImage/iphone16.png",
+      "desc": "گوشی موبایل اپل مدل iPhone 16 CH/A رم 8 گیگابایت رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 16، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 240000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 250000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "iPhone 14",
+      "category": "mobile",
+      "slug": "iphone-14",
+      "brand": "iPhone",
+      "stock": 11,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone14.webp",
+      "desc": "گوشی موبایل اپل مدل iPhone 14 CH/A تک سیم کارت ظرفیت 128 گیگابایت رم 4 گیگابایت رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 16 Plus، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 170000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 170000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "iPhone 16 Pro",
+      "category": "mobile",
+      "slug": "iphone-16-pro",
+      "brand": "iPhone",
+      "stock": 7,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone16pro.webp",
+      "desc": "گوشی موبایل اپل مدل iPhone 16 Pro ZA/A رم 8 گیگابایت رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 16 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 340000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 345000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "iPhone 16 Pro Max",
+      "category": "mobile",
+      "slug": "iphone-16-pro-max",
+      "brand": "iPhone",
+      "stock": 21,
+      "hasDiscount": true,
+      "discount": 10,
+      "discountExpiresAt": "2026-09-30T23:59:59",
+      "image": "/productsImage/iphone16promax.webp",
+      "desc": "گوشی موبایل اپل مدل iPhone 16 Pro Max ZA/A رم 8 گیگابایت رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 16 Pro Max، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 360000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 370000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "iPhone 17",
+      "category": "mobile",
+      "slug": "iphone-17",
+      "brand": "iPhone",
+      "stock": 19,
+      "hasDiscount": true,
+      "discount": 20,
+      "discountExpiresAt": "2026-09-20T23:59:59",
+      "image": "/productsImage/iphone17.webp",
+      "desc": "گوشی موبایل اپل مد‌ل iPhone 17 CH/A رم 8 گیگابایت - رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 17، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 290000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 320000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "iPhone 17 Air",
+      "category": "mobile",
+      "slug": "iphone-17-air",
+      "brand": "iPhone",
+      "stock": 36,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone17air.webp",
+      "desc": "گوشی موبایل اپل iPhone 17 Air رم 12 گیگابایت",
+      "longDesc": "توضیحات کامل درباره iPhone 17 Air، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 240000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 260000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "iPhone 17 Pro",
+      "category": "mobile",
+      "slug": "iphone-17-pro",
+      "brand": "iPhone",
+      "stock": 7,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone17pro.webp",
+      "desc": "گوشی موبایل اپل مد‌ل iPhone 17 Pro CH/A رم 8 گیگابایت - رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 17 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 420000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 440000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "iPhone 17 Pro Max",
+      "category": "mobile",
+      "slug": "iphone-17-pro-max",
+      "brand": "iPhone",
+      "stock": 37,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/iphone17promax.webp",
+      "desc": "گوشی موبایل اپل مد‌ل iPhone 17 Pro Max CH/A رم 8 گیگابایت - رجیستر شده",
+      "longDesc": "توضیحات کامل درباره iPhone 17 Pro Max، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 430000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 460000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Samsung Galaxy S25 fe",
+      "category": "mobile",
+      "slug": "galaxy-s25 fe",
+      "brand": "Samsung",
+      "stock": 10,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/s25fe.webp",
+      "desc": "گوشی موبايل سامسونگ مدل Galaxy S25 FE رم 8 گیگابایت - ویتنام",
+      "longDesc": "توضیحات کامل درباره Galaxy S25، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 180000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 220000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Samsung Galaxy S25",
+      "category": "mobile",
+      "slug": "galaxy-s25",
+      "brand": "Samsung",
+      "stock": 30,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/s25.webp",
+      "desc": "گوشی موبايل سامسونگ مدل Galaxy S25 5G رم 12 گیگابایت",
+      "longDesc": "توضیحات کامل درباره Galaxy S25، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 280000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 290000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Samsung Galaxy S25 Ultra",
+      "category": "mobile",
+      "slug": "galaxy-s25-ultra",
+      "brand": "Samsung",
+      "stock": 6,
+      "hasDiscount": true,
+      "discount": 30,
+      "discountExpiresAt": "2026-09-22T23:59:59",
+      "image": "/productsImage/s25ultra.webp",
+      "desc": "Galaxy S25 Ultra با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Galaxy S25 Ultra، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 330000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 350000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Galaxy A56",
+      "category": "mobile",
+      "slug": "galaxy-a56",
+      "brand": "Galaxy",
+      "stock": 14,
+      "hasDiscount": true,
+      "discount": 18,
+      "discountExpiresAt": "2026-09-30T23:59:59",
+      "image": "/productsImage/a56.webp",
+      "desc": "Galaxy A56 با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Galaxy A56، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 90000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 110000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Galaxy A36",
+      "category": "mobile",
+      "slug": "galaxy-a36",
+      "brand": "Galaxy",
+      "stock": 15,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/galaxya36.webp",
+      "desc": "Galaxy A36 با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Galaxy A36، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 73000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 80000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Galaxy Z Fold 7",
+      "category": "mobile",
+      "slug": "galaxy-z-fold-7",
+      "brand": "Galaxy",
+      "stock": 16,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/galaxyzfold7.webp",
+      "desc": "Galaxy Z Fold 7 با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Galaxy Z Fold 7، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 400000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 440000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Galaxy Z Flip 7",
+      "category": "mobile",
+      "slug": "galaxy-z-flip-7",
+      "brand": "Galaxy",
+      "stock": 11,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/galaxyzflip7.webp",
+      "desc": "Galaxy Z Flip 7 با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Galaxy Z Flip 7، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 220000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 280000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Xiaomi 15",
+      "category": "mobile",
+      "slug": "xiaomi-15",
+      "brand": "Xiaomi",
+      "stock": 16,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/xiaomi15.webp",
+      "desc": "Xiaomi 15 با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Xiaomi 15، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 260000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 290000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Xiaomi 15 Pro",
+      "category": "mobile",
+      "slug": "xiaomi-15-pro",
+      "brand": "Xiaomi",
+      "stock": 15,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/xiaomi15pro.webp",
+      "desc": "Xiaomi 15 Pro با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Xiaomi 15 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 320000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 330000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Xiaomi 15 Ultra",
+      "category": "mobile",
+      "slug": "xiaomi-15-ultra",
+      "brand": "Xiaomi",
+      "stock": 20,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/xiaomi15ultra.webp",
+      "desc": "Xiaomi 15 Ultra با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Xiaomi 15 Ultra، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 350000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 350000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Redmi Note 15 Pro",
+      "category": "mobile",
+      "slug": "redmi-note-15-pro",
+      "brand": "Redmi",
+      "stock": 28,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/redminote15pro.webp",
+      "desc": "Redmi Note 15 Pro با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Redmi Note 15 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 140000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 150000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Poco F7 Pro",
+      "category": "mobile",
+      "slug": "poco-f7-pro",
+      "brand": "Poco",
+      "stock": 32,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/pocof7pro.webp",
+      "desc": "Poco F7 Pro با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Poco F7 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 84000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 147000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Poco F7 Ultra",
+      "category": "mobile",
+      "slug": "poco-f7-ultra",
+      "brand": "Poco",
+      "stock": 18,
+      "hasDiscount": false,
+      "discount": 0,
+      "discountExpiresAt": null,
+      "image": "/productsImage/pocof7ultra.webp",
+      "desc": "Poco F7 Ultra با امکانات به‌روز و کیفیت ساخت بالا",
+      "longDesc": "توضیحات کامل درباره Poco F7 Ultra، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "variants": [
+        {
+          "storage": "256GB",
+          "price": 100000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        },
+        {
+          "storage": "512GB",
+          "price": 157000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            },
+            {
+              "name": "آبی",
+              "hex": "#2563EB"
+            },
+            {
+              "name": "سبز",
+              "hex": "#22C55E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Asus ROG Strix",
+      "category": "laptop",
+      "slug": "asus-rog-strix",
+      "brand": "Asus",
+      "stock": 12,
+      "hasDiscount": false,
+      "image": "/productsImage/asusrogstrix.webp",
+      "desc": "Asus ROG Strix لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Asus ROG Strix",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 530000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 600000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Asus TUF Gaming",
+      "category": "laptop",
+      "slug": "asus-tuf-gaming",
+      "brand": "Asus",
+      "stock": 20,
+      "hasDiscount": false,
+      "image": "/productsImage/asustufgaming.webp",
+      "desc": "Asus TUF Gaming لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Asus TUF Gaming",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 220000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 250000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Asus Zenbook",
+      "category": "laptop",
+      "slug": "asus-zenbook",
+      "brand": "Asus",
+      "stock": 18,
+      "hasDiscount": false,
+      "image": "/productsImage/asuszenbook.webp",
+      "desc": "Asus Zenbook لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Asus Zenbook",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 170000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 10000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Asus Vivobook 15",
+      "category": "laptop",
+      "slug": "asus-vivobook-15",
+      "brand": "Asus",
+      "stock": 10,
+      "hasDiscount": true,
+      "discount": 15,
+      "discountExpiresAt": "2026-09-27T23:59:59",
+      "image": "/productsImage/vivobook15.webp",
+      "desc": "Asus Vivobook لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Asus Vivobook",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 130000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 173000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Lenovo Legion",
+      "category": "laptop",
+      "slug": "lenovo-legion",
+      "brand": "Lenovo",
+      "stock": 5,
+      "hasDiscount": false,
+      "image": "/productsImage/lenovolegion.webp",
+      "desc": "Lenovo Legion لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Lenovo Legion",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 115000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 228000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Lenovo LOQ",
+      "category": "laptop",
+      "slug": "lenovo-loq",
+      "brand": "Lenovo",
+      "stock": 20,
+      "hasDiscount": false,
+      "image": "/productsImage/lenovoloq.webp",
+      "desc": "Lenovo LOQ لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Lenovo LOQ",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 118000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 213000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Lenovo IdeaPad slim 3",
+      "category": "laptop",
+      "slug": "Lenovo IdeaPad slim 3",
+      "brand": "Lenovo",
+      "stock": 3,
+      "hasDiscount": true,
+      "discount": 15,
+      "discountExpiresAt": "2026-09-25T23:59:59",
+      "image": "/productsImage/ideapadslim3.webp",
+      "desc": "Lenovo ThinkPad لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Lenovo ThinkPad",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 147000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 240000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Lenovo IdeaPad",
+      "category": "laptop",
+      "slug": "lenovo-ideapad",
+      "brand": "Lenovo",
+      "stock": 15,
+      "hasDiscount": false,
+      "image": "/productsImage/lenovoideapad.webp",
+      "desc": "Lenovo IdeaPad لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Lenovo IdeaPad",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 118000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 190000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Asus ProArt",
+      "category": "laptop",
+      "slug": "asus-proart",
+      "brand": "Asus",
+      "stock": 20,
+      "hasDiscount": false,
+      "image": "/productsImage/asusproart.webp",
+      "desc": "Asus ProArt لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل Asus ProArt",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 119000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 190000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "MacBook Air M4",
+      "category": "laptop",
+      "slug": "MacBook Air M4",
+      "brand": "Apple",
+      "stock": 5,
+      "hasDiscount": true,
+      "discount": 25,
+      "discountExpiresAt": "2026-09-24T23:59:59",
+      "image": "/productsImage/macairm4.webp",
+      "desc": "MacBook Air M4 لپ‌تاپی قدرتمند",
+      "longDesc": "توضیحات کامل MacBook Air M4",
+      "variants": [
+        {
+          "storage": "512GB",
+          "price": 130000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "storage": "1TB",
+          "price": 202000000,
+          "colors": [
+            {
+              "name": "مشکی",
+              "hex": "#111827"
+            },
+            {
+              "name": "سفید",
+              "hex": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Sony WH-1000XM6",
+      "category": "هدفون",
+      "slug": "36",
+      "brand": "Generic",
+      "stock": 5,
+      "hasDiscount": false,
+      "price": 190000000,
+      "image": "/productsImage/36.webp",
+      "desc": "Sony WH-1000XM6",
+      "longDesc": "توضیحات Sony WH-1000XM6"
+    },
+    {
+      "id": "37",
+      "name": "JBL Tune 770",
+      "category": "هدفون",
+      "slug": "37",
+      "brand": "Generic",
+      "stock": 33,
+      "hasDiscount": false,
+      "price": 190000000,
+      "image": "/productsImage/37.webp",
+      "desc": "JBL Tune 770",
+      "longDesc": "توضیحات JBL Tune 770"
+    },
+    {
+      "id": "38",
+      "name": "AirPods Pro 2",
+      "category": "هدفون",
+      "slug": "AirPods Pro 2",
+      "brand": "Apple",
+      "stock": 26,
+      "hasDiscount": true,
+      "discount": 10,
+      "discountExpiresAt": "2026-09-28T23:59:59",
+      "price": 25000000,
+      "image": "/productsImage/airpodpro2.webp",
+      "desc": "AirPods Pro 2",
+      "longDesc": "توضیحات AirPods Pro 2"
+    },
+    {
+      "id": "39",
+      "name": "Galaxy Buds 3",
+      "category": "هدفون",
+      "slug": "39",
+      "brand": "Generic",
+      "stock": 39,
+      "hasDiscount": false,
+      "price": 3000000,
+      "image": "/productsImage/39.webp",
+      "desc": "Galaxy Buds 3",
+      "longDesc": "توضیحات Galaxy Buds 3"
+    },
+    {
+      "id": "40",
+      "name": "Xiaomi Buds 5",
+      "category": "هدفون",
+      "slug": "40",
+      "brand": "Generic",
+      "stock": 20,
+      "hasDiscount": false,
+      "price": 8000000,
+      "image": "/productsImage/40.webp",
+      "desc": "Xiaomi Buds 5",
+      "longDesc": "توضیحات Xiaomi Buds 5"
+    },
+    {
+      "id": "41",
+      "name": "JBL Live",
+      "category": "هدفون",
+      "slug": "41",
+      "brand": "Generic",
+      "stock": 50,
+      "hasDiscount": false,
+      "price": 190000000,
+      "image": "/productsImage/41.webp",
+      "desc": "JBL Live",
+      "longDesc": "توضیحات JBL Live"
+    },
+    {
+      "id": "42",
+      "name": "Sony WF",
+      "category": "هدفون",
+      "slug": "42",
+      "brand": "Generic",
+      "stock": 37,
+      "hasDiscount": false,
+      "price": 190000000,
+      "image": "/productsImage/42.webp",
+      "desc": "Sony WF",
+      "longDesc": "توضیحات Sony WF"
+    },
+    {
+      "id": "43",
+      "name": "AirPods 4",
+      "category": "هدفون",
+      "slug": "43",
+      "brand": "Generic",
+      "stock": 5,
+      "hasDiscount": false,
+      "price": 40000000,
+      "image": "/productsImage/43.webp",
+      "desc": "AirPods 4",
+      "longDesc": "توضیحات AirPods 4"
+    },
+    {
+      "id": "44",
+      "name": "PS5 Slim",
+      "category": "console",
+      "slug": "44",
+      "brand": "Generic",
+      "stock": 29,
+      "hasDiscount": true,
+      "discount": 18,
+      "discountExpiresAt": "2026-09-29T23:59:59",
+      "price": 120000000,
+      "image": "/productsImage/ps5slim.webp",
+      "desc": "PS5 Slim",
+      "longDesc": "توضیحات PS5 Slim"
+    },
+    {
+      "id": "45",
+      "name": "PS5 Pro",
+      "category": "console",
+      "slug": "45",
+      "brand": "Generic",
+      "stock": 28,
+      "hasDiscount": false,
+      "price": 190000000,
+      "image": "/productsImage/45.webp",
+      "desc": "PS5 Pro",
+      "longDesc": "توضیحات PS5 Pro"
+    },
+    {
+      "id": "46",
+      "name": "Xbox Series X",
+      "category": "console",
+      "slug": "46",
+      "brand": "Generic",
+      "stock": 15,
+      "hasDiscount": false,
+      "price": 190000000,
+      "image": "/productsImage/46.webp",
+      "desc": "Xbox Series X",
+      "longDesc": "توضیحات Xbox Series X"
+    },
+    {
+      "id": "47",
+      "name": "Nintendo Switch 2",
+      "category": "console",
+      "slug": "47",
+      "brand": "Generic",
+      "stock": 12,
+      "hasDiscount": false,
+      "price": 190000000,
+      "image": "/productsImage/47.webp",
+      "desc": "Nintendo Switch 2",
+      "longDesc": "توضیحات Nintendo Switch 2"
+    },
+    {
+      "id": "48",
+      "name": "Samsung 45W Charger",
+      "category": "accessory",
+      "slug": "Samsung 45W Charger",
+      "brand": "Samsung",
+      "stock": 42,
+      "hasDiscount": true,
+      "discount": 22,
+      "discountExpiresAt": "2026-09-26T23:59:59",
+      "price": 3000000,
+      "image": "/productsImage/samsungcharger45w.webp",
+      "desc": "شارژر 45 وات",
+      "longDesc": "توضیحات شارژر 45 وات"
+    },
+    {
+      "id": "49",
+      "name": "Samsung 25W Charger",
+      "category": "accessory",
+      "slug": "Samsung 25W Charger",
+      "brand": "Samsung",
+      "stock": 21,
+      "hasDiscount": false,
+      "price": 2000000,
+      "image": "/productsImage/49.webp",
+      "desc": "شارژر 25 وات",
+      "longDesc": "توضیحات شارژر 25 وات"
+    },
+    {
+      "id": "50",
+      "name": "هندزفری سیمی",
+      "category": "accessory",
+      "slug": "50",
+      "brand": "Generic",
+      "stock": 44,
+      "hasDiscount": false,
+      "price": 1000000,
+      "image": "/productsImage/50.webp",
+      "desc": "هندزفری سیمی",
+      "longDesc": "توضیحات هندزفری سیمی"
+    }
+  ],
+  "cart": [],
+  "users": [
+    {
+      "id": "1",
+      "name": "سعید رنجبر",
+      "email": "saeed.ranjbar@example.com",
+      "phone": "09306828320",
+      "password": "saeedse",
+      "status": "فعال",
+      "role": "admin",
+      "city": "تبریز"
+    },
+    {
+      "id": "2",
+      "name": "رضا کریمی",
+      "email": "reza.karimi@example.com",
+      "phone": "09039600133",
+      "password": "karimi00",
+      "joined": "۱۴۰۲/۰۴/۰۴",
+      "status": "غیرفعال",
+      "role": "support",
+      "city": "اصفهان"
+    },
+    {
+      "id": "3",
+      "name": "مینا رستمی",
+      "email": "mina.rostami@example.com",
+      "phone": "09399083863",
+      "password": "Jangal78!",
+      "joined": "۱۴۰۲/۱۱/۰۴",
+      "status": "فعال",
+      "role": "support",
+      "city": "تهران"
+    },
+    {
+      "id": "4",
+      "name": "علی جعفری",
+      "email": "ali.jafari@example.com",
+      "joined": "۱۴۰۲/۱۰/۱۹",
+      "status": "غیرفعال",
+      "password": "Ghermez84!",
+      "phone": "09379402654",
+      "role": "support",
+      "city": "تبریز"
+    },
+    {
+      "id": "5",
+      "name": "نگار طاهری",
+      "email": "negar.taheri@example.com",
+      "joined": "۱۴۰۲/۰۹/۰۲",
+      "status": "فعال",
+      "password": "Roya74@",
+      "phone": "09103511615",
+      "role": "customer",
+      "city": "اصفهان"
+    },
+    {
+      "id": "6",
+      "name": "سینا کاظمی",
+      "email": "user6.kazemi@example.com",
+      "joined": "۱۴۰۳/۰۱/۲۴",
+      "status": "فعال",
+      "password": "Ara21$",
+      "phone": "09339407816",
+      "role": "customer",
+      "city": "تبریز"
+    },
+    {
+      "id": "7",
+      "name": "لیلا فرجی",
+      "email": "user7.faraji@example.com",
+      "joined": "۱۴۰۲/۰۹/۲۵",
+      "status": "فعال",
+      "password": "Banafsh18@",
+      "phone": "09038495931",
+      "role": "customer",
+      "city": "اصفهان"
+    },
+    {
+      "id": "8",
+      "name": "بهنام قاسمی",
+      "email": "user8.ghasemi@example.com",
+      "joined": "۱۴۰۲/۱۰/۰۳",
+      "status": "غیرفعال",
+      "password": "Sabz80$",
+      "phone": "09023413164",
+      "role": "customer",
+      "city": "شیراز"
+    },
+    {
+      "id": "9",
+      "name": "امیرحسین نادری",
+      "email": "user9.naderi@example.com",
+      "joined": "۱۴۰۴/۱۰/۱۴",
+      "status": "فعال",
+      "password": "Ara82!",
+      "phone": "09375255341",
+      "role": "customer",
+      "city": "شیراز"
+    },
+    {
+      "id": "10",
+      "name": "بهنام امینی",
+      "email": "user10.amini@example.com",
+      "joined": "۱۴۰۲/۰۶/۰۱",
+      "status": "فعال",
+      "password": "Baran90@",
+      "phone": "09118327648",
+      "role": "customer",
+      "city": "تهران"
+    },
+    {
+      "id": "11",
+      "name": "ترانه رستمی",
+      "email": "user11.rostami@example.com",
+      "joined": "۱۴۰۴/۰۴/۰۹",
+      "status": "فعال",
+      "password": "Ara83@",
+      "phone": "09135030564",
+      "role": "customer",
+      "city": "تبریز"
+    },
+    {
+      "id": "12",
+      "name": "سینا شریفی",
+      "email": "user12.sharifi@example.com",
+      "joined": "۱۴۰۲/۰۲/۲۲",
+      "status": "فعال",
+      "password": "Zard16@",
+      "phone": "09033953767",
+      "role": "customer",
+      "city": "اصفهان"
+    },
+    {
+      "id": "13",
+      "name": "پریسا حیدری",
+      "email": "user13.heidari@example.com",
+      "joined": "۱۴۰۲/۰۴/۰۷",
+      "status": "غیرفعال",
+      "password": "Ara81@",
+      "phone": "09104238849",
+      "role": "customer",
+      "city": "اصفهان"
+    },
+    {
+      "id": "14",
+      "name": "فرهاد نظری",
+      "email": "user14.nazari@example.com",
+      "joined": "۱۴۰۲/۱۱/۱۸",
+      "status": "فعال",
+      "password": "Setare63@",
+      "phone": "09369653287",
+      "role": "customer",
+      "city": "شیراز"
+    },
+    {
+      "id": "15",
+      "name": "حسین کاظمی",
+      "email": "user15.kazemi@example.com",
+      "joined": "۱۴۰۳/۰۱/۱۳",
+      "status": "غیرفعال",
+      "password": "Angoor25@",
+      "phone": "09030122691",
+      "role": "customer",
+      "city": "مشهد"
+    },
+    {
+      "id": "16",
+      "name": "نیلوفر یوسفی",
+      "email": "user16.yousefi@example.com",
+      "joined": "۱۴۰۲/۰۱/۱۹",
+      "status": "فعال",
+      "password": "Setare81@",
+      "phone": "09356978480",
+      "role": "customer",
+      "city": "اصفهان"
+    },
+    {
+      "id": "17",
+      "name": "حسین بهرامی",
+      "email": "user17.bahrami@example.com",
+      "joined": "۱۴۰۲/۰۳/۰۳",
+      "status": "فعال",
+      "password": "Zeyton84@",
+      "phone": "09058451462",
+      "role": "customer",
+      "city": "شیراز"
+    },
+    {
+      "id": "18",
+      "name": "حسین شکوری",
+      "email": "user18.shakouri@example.com",
+      "joined": "۱۴۰۲/۰۷/۲۲",
+      "status": "فعال",
+      "password": "Limoo34#",
+      "phone": "09370482814",
+      "role": "customer",
+      "city": "مشهد"
+    },
+    {
+      "id": "19",
+      "name": "کیوان کامرانی",
+      "email": "user19.kamrani@example.com",
+      "joined": "۱۴۰۳/۰۲/۰۱",
+      "status": "فعال",
+      "password": "Zeyton80!",
+      "phone": "09399325288",
+      "role": "customer",
+      "city": "اصفهان"
+    },
+    {
+      "id": "20",
+      "name": "بهنام فرجی",
+      "email": "user20.faraji@example.com",
+      "joined": "۱۴۰۳/۰۳/۱۵",
+      "status": "فعال",
+      "password": "Toot17@",
+      "phone": "09019570154",
+      "role": "customer",
+      "city": "مشهد"
+    },
+    {
+      "id": "21",
+      "name": "محمد صالحی",
+      "email": "user21.salehi@example.com",
+      "joined": "۱۴۰۳/۰۲/۰۴",
+      "status": "فعال",
+      "password": "Yakh73%",
+      "phone": "09130391171",
+      "role": "customer",
+      "city": "شیراز"
+    },
+    {
+      "id": "22",
+      "name": "رویا طاهری",
+      "email": "user22.taheri@example.com",
+      "joined": "۱۴۰۳/۰۱/۰۳",
+      "status": "فعال",
+      "password": "Banafsh50$",
+      "phone": "09102782489",
+      "role": "customer",
+      "city": "شیراز"
+    },
+    {
+      "id": "23",
+      "name": "سینا عباسی",
+      "email": "user23.abbasi@example.com",
+      "joined": "۱۴۰۲/۰۲/۰۳",
+      "status": "فعال",
+      "password": "Toot68#",
+      "phone": "09363834657",
+      "role": "customer",
+      "city": "مشهد"
+    },
+    {
+      "id": "24",
+      "name": "حسین فرجی",
+      "email": "user24.faraji@example.com",
+      "joined": "۱۴۰۲/۱۱/۰۸",
+      "status": "فعال",
+      "password": "Setare41@",
+      "phone": "09397133150",
+      "role": "customer",
+      "city": "اصفهان"
+    },
+    {
+      "id": "25",
+      "name": "امیرحسین کاظمی",
+      "email": "user25.kazemi@example.com",
+      "joined": "۱۴۰۳/۰۱/۰۶",
+      "status": "غیرفعال",
+      "password": "Mah41!",
+      "phone": "09139301031",
+      "role": "customer",
+      "city": "شیراز"
+    },
+    {
+      "id": "26",
+      "name": "امیر علوی",
+      "email": "amiralavi@example.com",
+      "joined": "۱۴۰۳/۰۶/۰۶",
+      "status": "غیرفعال",
+      "password": "amir@90",
+      "phone": "09139301890",
+      "role": "customer",
+      "city": "شیراز"
+    },
+    {
+      "id": "27",
+      "name": "علی نوری",
+      "email": "alinouri@example.com",
+      "joined": "۱۴۰۳/۰۶/۰۳",
+      "status": "فعال",
+      "password": "alinouri@77",
+      "phone": "09129301890",
+      "role": "customer",
+      "city": "تهران"
+    },
+    {
+      "id": "28",
+      "name": "رضا نیازی",
+      "email": "rezaniyazi@example.com",
+      "joined": "۱۴۰۴/۰۴/۰۶",
+      "status": "فعال",
+      "password": "rezaniyazi@66",
+      "phone": "09129332490",
+      "role": "customer",
+      "city": "تهران"
+    },
+    {
+      "id": "29",
+      "name": "فرحان علیپور",
+      "email": "farhanalipour@example.com",
+      "joined": "۱۴۰۴/۰۴/۰۴",
+      "status": "فعال",
+      "password": "farhanalipour@83",
+      "phone": "09149332490",
+      "role": "customer",
+      "city": "تبریز"
+    },
+    {
+      "id": "30",
+      "name": "محمد ابری",
+      "email": "mohammadabri@example.com",
+      "joined": "۱۴۰۴/۰۴/۰۴",
+      "status": "فعال",
+      "password": "mohammadabri@73",
+      "phone": "09139892490",
+      "role": "customer",
+      "city": "اصفهان"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "productId": 17,
+      "name": "حسین بهرامی",
+      "rating": 5,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-04-12"
+    },
+    {
+      "id": "2",
+      "productId": 21,
+      "name": "سینا عباسی",
+      "rating": 4,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-04-20"
+    },
+    {
+      "id": "3",
+      "productId": 29,
+      "name": "لیلا فرجی",
+      "rating": 1,
+      "text": "از بسته بندی رضایت نداشتم",
+      "date": "1404-03-02"
+    },
+    {
+      "id": "4",
+      "productId": 47,
+      "name": "علی نوری",
+      "rating": 5,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-03-15"
+    },
+    {
+      "id": "5",
+      "productId": 45,
+      "name": "بهنام فرجی",
+      "rating": 5,
+      "text": "پی اس فایو دیگه نیازی به تعریف نداره",
+      "date": "1404-02-18"
+    },
+    {
+      "id": "6",
+      "productId": 47,
+      "name": "حسین بهرامی",
+      "rating": 2,
+      "text": "کارتن بسته بندی پاره شده بود",
+      "date": "1404-05-01"
+    },
+    {
+      "id": "7",
+      "productId": 12,
+      "name": "محمد ابری",
+      "rating": 4,
+      "text": "قیمت بالایی داره ولی در کل خوبه",
+      "date": "1404-05-06"
+    },
+    {
+      "id": "8",
+      "productId": 7,
+      "name": "علی نوری",
+      "rating": 5,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1404-04-28"
+    },
+    {
+      "id": "9",
+      "productId": 41,
+      "name": "فرحان علیپور",
+      "rating": 4,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-01-22"
+    },
+    {
+      "id": "10",
+      "productId": 6,
+      "name": "علی جعفری",
+      "rating": 4,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-02-12"
+    },
+    {
+      "id": "11",
+      "productId": 37,
+      "name": "امیر علوی",
+      "rating": 5,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1402-02-14"
+    },
+    {
+      "id": "12",
+      "productId": 34,
+      "name": "بهنام قاسمی",
+      "rating": 5,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1404-07-02"
+    },
+    {
+      "id": "13",
+      "productId": 49,
+      "name": "علی جعفری",
+      "rating": 5,
+      "text": "باتری خوبه",
+      "date": "1404-11-19"
+    },
+    {
+      "id": "14",
+      "productId": 8,
+      "name": "بهنام قاسمی",
+      "rating": 3,
+      "text": "باتریش خوبه",
+      "date": "1402-04-02"
+    },
+    {
+      "id": "15",
+      "productId": 16,
+      "name": "نیلوفر یوسفی",
+      "rating": 5,
+      "text": "تو گوشی های متوسط خیلی خوبه",
+      "date": "1402-09-04"
+    },
+    {
+      "id": "16",
+      "productId": 31,
+      "name": "سینا شریفی",
+      "rating": 5,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1404-10-21"
+    },
+    {
+      "id": "17",
+      "productId": 42,
+      "name": "ترانه رستمی",
+      "rating": 4,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-02-19"
+    },
+    {
+      "id": "18",
+      "productId": 15,
+      "name": "سینا کاظمی",
+      "rating": 5,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1404-09-14"
+    },
+    {
+      "id": "19",
+      "productId": 39,
+      "name": "نیلوفر یوسفی",
+      "rating": 3,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1403-06-10"
+    },
+    {
+      "id": "20",
+      "productId": 36,
+      "name": "رضا نیازی",
+      "rating": 5,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-05-17"
+    },
+    {
+      "id": "21",
+      "productId": 6,
+      "name": "سینا کاظمی",
+      "rating": 4,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1404-02-04"
+    },
+    {
+      "id": "22",
+      "productId": 41,
+      "name": "علی جعفری",
+      "rating": 5,
+      "text": "باتریش خوبه",
+      "date": "1402-08-14"
+    },
+    {
+      "id": "23",
+      "productId": 30,
+      "name": "لیلا فرجی",
+      "rating": 4,
+      "text": "از خریدم راضی هستم",
+      "date": "1403-06-23"
+    },
+    {
+      "id": "24",
+      "productId": 6,
+      "name": "سینا کاظمی",
+      "rating": 5,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1402-02-09"
+    },
+    {
+      "id": "25",
+      "productId": 9,
+      "name": "علی نوری",
+      "rating": 4,
+      "text": "باتریش خوبه",
+      "date": "1404-05-21"
+    },
+    {
+      "id": "26",
+      "productId": 40,
+      "name": "نگار طاهری",
+      "rating": 4,
+      "text": "باتری خوبه",
+      "date": "1403-11-12"
+    },
+    {
+      "id": "27",
+      "productId": 18,
+      "name": "بهنام فرجی",
+      "rating": 3,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1404-02-16"
+    },
+    {
+      "id": "28",
+      "productId": 19,
+      "name": "رویا طاهری",
+      "rating": 3,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-04-13"
+    },
+    {
+      "id": "29",
+      "productId": 15,
+      "name": "بهنام قاسمی",
+      "rating": 5,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1403-07-18"
+    },
+    {
+      "id": "30",
+      "productId": 10,
+      "name": "حسین فرجی",
+      "rating": 3,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-07-12"
+    },
+    {
+      "id": "31",
+      "productId": 41,
+      "name": "محمد صالحی",
+      "rating": 3,
+      "text": "از خریدم راضی هستم",
+      "date": "1402-03-05"
+    },
+    {
+      "id": "32",
+      "productId": 42,
+      "name": "بهنام فرجی",
+      "rating": 5,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-03-09"
+    },
+    {
+      "id": "33",
+      "productId": 3,
+      "name": "محمد صالحی",
+      "rating": 5,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-06-20"
+    },
+    {
+      "id": "34",
+      "productId": 2,
+      "name": "بهنام قاسمی",
+      "rating": 5,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-10-21"
+    },
+    {
+      "id": "35",
+      "productId": 34,
+      "name": "سینا کاظمی",
+      "rating": 4,
+      "text": "خیلی روان اجرا میکنه گیم ها رو",
+      "date": "1404-07-13"
+    },
+    {
+      "id": "36",
+      "productId": 3,
+      "name": "حسین شکوری",
+      "rating": 5,
+      "text": "باتریش خوبه",
+      "date": "1403-01-07"
+    },
+    {
+      "id": "37",
+      "productId": 50,
+      "name": "سینا عباسی",
+      "rating": 4,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1402-06-20"
+    },
+    {
+      "id": "38",
+      "productId": 29,
+      "name": "حسین فرجی",
+      "rating": 5,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1402-09-04"
+    },
+    {
+      "id": "39",
+      "productId": 40,
+      "name": "نیلوفر یوسفی",
+      "rating": 3,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1402-10-13"
+    },
+    {
+      "id": "40",
+      "productId": 38,
+      "name": "بهنام امینی",
+      "rating": 4,
+      "text": "از خریدم راضی هستم",
+      "date": "1403-08-04"
+    },
+    {
+      "id": "41",
+      "productId": 49,
+      "name": "سینا کاظمی",
+      "rating": 4,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1403-05-03"
+    },
+    {
+      "id": "42",
+      "productId": 27,
+      "name": "حسین کاظمی",
+      "rating": 3,
+      "text": "باتریش خوبه",
+      "date": "1403-08-27"
+    },
+    {
+      "id": "43",
+      "productId": 2,
+      "name": "حسین بهرامی",
+      "rating": 3,
+      "text": "باتریش خوبه",
+      "date": "1404-06-05"
+    },
+    {
+      "id": "44",
+      "productId": 50,
+      "name": "پریسا حیدری",
+      "rating": 4,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1403-11-28"
+    },
+    {
+      "id": "45",
+      "productId": 49,
+      "name": "حسین شکوری",
+      "rating": 4,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1402-06-25"
+    },
+    {
+      "id": "46",
+      "productId": 3,
+      "name": "امیرحسین کاظمی",
+      "rating": 3,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1403-11-08"
+    },
+    {
+      "id": "47",
+      "productId": 1,
+      "name": "نگار طاهری",
+      "rating": 5,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1404-04-07"
+    },
+    {
+      "id": "48",
+      "productId": 33,
+      "name": "ترانه رستمی",
+      "rating": 5,
+      "text": "باتری خوبه",
+      "date": "1402-01-26"
+    },
+    {
+      "id": "49",
+      "productId": 15,
+      "name": "فرحان علیپور",
+      "rating": 5,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-10-12"
+    },
+    {
+      "id": "50",
+      "productId": 30,
+      "name": "محمد صالحی",
+      "rating": 4,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1402-02-08"
+    },
+    {
+      "id": "51",
+      "productId": 3,
+      "name": "حسین شکوری",
+      "rating": 5,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1403-10-20"
+    },
+    {
+      "id": "52",
+      "productId": 34,
+      "name": "ترانه رستمی",
+      "rating": 3,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1402-07-26"
+    },
+    {
+      "id": "53",
+      "productId": 19,
+      "name": "نیلوفر یوسفی",
+      "rating": 3,
+      "text": "از خریدم راضی هستم",
+      "date": "1403-11-11"
+    },
+    {
+      "id": "54",
+      "productId": 39,
+      "name": "بهنام امینی",
+      "rating": 3,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-02-24"
+    },
+    {
+      "id": "55",
+      "productId": 11,
+      "name": "سینا شریفی",
+      "rating": 4,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1402-10-15"
+    },
+    {
+      "id": "56",
+      "productId": 1,
+      "name": "سینا عباسی",
+      "rating": 3,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1404-06-05"
+    },
+    {
+      "id": "57",
+      "productId": 30,
+      "name": "امیر علوی",
+      "rating": 4,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1402-12-21"
+    },
+    {
+      "id": "58",
+      "productId": 48,
+      "name": "پریسا حیدری",
+      "rating": 5,
+      "text": "از خریدم راضی هستم",
+      "date": "1402-04-01"
+    },
+    {
+      "id": "59",
+      "productId": 23,
+      "name": "سینا عباسی",
+      "rating": 4,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1402-10-11"
+    },
+    {
+      "id": "60",
+      "productId": 30,
+      "name": "فرحان علیپور",
+      "rating": 5,
+      "text": "از خریدم راضی هستم",
+      "date": "1402-12-12"
+    },
+    {
+      "id": "61",
+      "productId": 13,
+      "name": "بهنام امینی",
+      "rating": 5,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-03-18"
+    },
+    {
+      "id": "62",
+      "productId": 48,
+      "name": "امیر علوی",
+      "rating": 5,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1403-03-20"
+    },
+    {
+      "id": "63",
+      "productId": 41,
+      "name": "امیرحسین نادری",
+      "rating": 3,
+      "text": "باتریش خوبه",
+      "date": "1403-10-24"
+    },
+    {
+      "id": "64",
+      "productId": 43,
+      "name": "حسین بهرامی",
+      "rating": 4,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-09-17"
+    },
+    {
+      "id": "65",
+      "productId": 22,
+      "name": "کیوان کامرانی",
+      "rating": 4,
+      "text": "باتریش خوبه",
+      "date": "1402-04-09"
+    },
+    {
+      "id": "66",
+      "productId": 45,
+      "name": "سینا کاظمی",
+      "rating": 4,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-01-25"
+    },
+    {
+      "id": "67",
+      "productId": 34,
+      "name": "بهنام فرجی",
+      "rating": 3,
+      "text": "کیفیت ساخت عالیه",
+      "date": "1404-10-17"
+    },
+    {
+      "id": "68",
+      "productId": 35,
+      "name": "پریسا حیدری",
+      "rating": 3,
+      "text": "باتریش خوبه",
+      "date": "1404-08-17"
+    },
+    {
+      "id": "69",
+      "productId": 34,
+      "name": "بهنام قاسمی",
+      "rating": 3,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1402-08-05"
+    },
+    {
+      "id": "70",
+      "productId": 23,
+      "name": "بهنام فرجی",
+      "rating": 3,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1403-02-22"
+    },
+    {
+      "id": "71",
+      "productId": 44,
+      "name": "حسین بهرامی",
+      "rating": 4,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-05-26"
+    },
+    {
+      "id": "72",
+      "productId": 45,
+      "name": "حسین فرجی",
+      "rating": 4,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1403-03-15"
+    },
+    {
+      "id": "73",
+      "productId": 10,
+      "name": "محمد ابری",
+      "rating": 3,
+      "text": "باتریش خوبه",
+      "date": "1402-11-27"
+    },
+    {
+      "id": "74",
+      "productId": 24,
+      "name": "رویا طاهری",
+      "rating": 5,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1403-06-14"
+    },
+    {
+      "id": "75",
+      "productId": 20,
+      "name": "حسین شکوری",
+      "rating": 3,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-06-01"
+    },
+    {
+      "id": "76",
+      "productId": 39,
+      "name": "فرهاد نظری",
+      "rating": 5,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-01-13"
+    },
+    {
+      "id": "77",
+      "productId": 42,
+      "name": "حسین فرجی",
+      "rating": 3,
+      "text": "از خریدم راضی هستم",
+      "date": "1404-02-04"
+    },
+    {
+      "id": "78",
+      "productId": 16,
+      "name": "کیوان کامرانی",
+      "rating": 3,
+      "text": "از خریدم راضی هستم",
+      "date": "1402-03-09"
+    },
+    {
+      "id": "79",
+      "productId": 29,
+      "name": "ترانه رستمی",
+      "rating": 5,
+      "text": "پیشنهاد می‌کنم",
+      "date": "1403-07-05"
+    },
+    {
+      "id": "80",
+      "productId": 4,
+      "name": "رضا نیازی",
+      "rating": 4,
+      "text": "ارزش خرید بالایی داره",
+      "date": "1404-06-03"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "category": "blog",
+      "title": "اخبار آیفون ۱۸! لحظه به لحظه تا رونمایی",
+      "description": "قرار است در بهار آینده، اپل گوشی‌های iPhone 18 و iPhone 18e را عرضه کند و امروز، اطلاعات جذابی از این سری گوشی لو رفته است. طبق این شایعات، هر دو گوشی قرار است با رم ۹ گیگابایت عرضه شوند. با این ارتقا رم، هوش مصنوعی اپل نیز عملکرد نرم‌ و روان‌تری خواهد داشت.ظ طبق اظهارات tipstre Digital Chat Station، نسخه ریجن چین، باتری ۴۰۵۶ میلی‌آمپرساعتی خواهد داشت، درحالی‌که باتری نسخه آمریکایی، کمی بزرگ‌تر و به ظرفیت ۴۲۸۸ میلی‌آمپرساعت خواهد بود.",
+      "image": "src/assets/blogImages/iphone18news.webp"
+    },
+    {
+      "id": "2",
+      "category": "blog",
+      "title": "مشخصات دوربین و باتری Galaxy S26 FE برملا شد!",
+      "description": "سامسونگ گوشی گلسی اس ۲۶ اف ای را معرفی کرد و اینطور که پیداست تنها تغییر آن نسبت به مدل قبلی، تراشه آن است که جدیدتر است. گوشی galaxy s26 fe با تراشه اگزینوس ۲۵۰۰ راهی بازار می‌شود؛ که بهتر و جدیدتر از اگزینوس ۲۴۰۰ است که روی galaxy s25 fe استفاده شده بود.تراشه اگزینوس ۲۵۰۰ تنها تراشه‌ای است که قرار است برای این گوشی به‌کار برود. به‌عبارتی، مثل خیلی از گوشی‌های دیگر سامسونگ، قرار نیست بعضی جاها اگزینوس و بعضی جاها اسنپدراگون باشد. یعنی هرجای دنیا این گوشی را خریداری کنید، همین تراشه روی گوشی خواهد بود.این تغییر و ارتقا، بسیار قابل توجه است. براساس ادعای سامسونگ، این تراشه عملکرد کلی گوشی را تا ۱۵٪ ارتقا می‌دهد و عملکرد هوش مصنوعی را تا ۳۹٪ نسبت به نسل قبل بهبود خواهد داد. پردازنده گرافیکی Xclipse 950 نیز نسبت به نسل قبل، ارتقاهای قابل توجهی دریافت کرده است.",
+      "image": "src/assets/blogImages/s26fenews.webp"
+    },
+    {
+      "id": "3",
+      "category": "blog",
+      "title": "آموزش گوگل میت در اندروید",
+      "description": "کیفیت و خدمات سرویس های گوگل بر کسی پوشیده نیست و گوگل میت هم از این قاعدده مستثنی نیست. امنیت و کیفیت دو ویژگی شاخص در سرویس‌های گوگل به شمار می‌رود که آن را به محبوب‌ترین برنامه‌ها تبدیل کرده است.یکی از راه های ورود به جلسه این است که از میزبان جلسه درخواست کنید تا لینک دعوت را برای شما رسال کند. انتهای این لینک کد جلسه است و با کلیک کردن روی آن به جلسه وارد می‌شوید. لازم به ذکر است قبل از کلیک روی لینک، حتما باید به حساب جیمیل وارد شوید. اگر می‌خواهید از طریق گوشی یا تبلت به جلسه بپیوندید، می‌توانید برنامه گوگل میت را دانلود و نصب کنید و فقط با ضربه زدن به جلسه اضافه شوید.",
+      "image": "src/assets/blogImages/googlemeetnews.webp"
+    },
+    {
+      "id": "4",
+      "category": "blog",
+      "title": "کدام گوشی‌ها HyperOS 3.1 را دریافت می‌کنند؟",
+      "description": "گوشی‌های شیائومی پرچمدار و سری‌های عدددار:Xiaomi 17, 17 Pro, 17 Pro Max, 17 Ultra,Xiaomi 15, 15 Pro, 15 Ultra, 15S Pro, 15T, 15T Pro,Xiaomi 14, 14 Pro, 14 Ultra, 14T, 14T Pro,Xiaomi 13, 13 Pro, 13 Ultra, 13T Pro دریافت می کنند",
+      "image": "src/assets/blogImages/hyperosnews.webp"
+    },
+    {
+      "id": "5",
+      "category": "blog",
+      "title": "نگاهی به رابط کاربری One UI 9 سامسونگ",
+      "description": "رابط کاربری جدید سامسونگ، از اوایل تابستان به‌طور رسمی در دسترس قرار می‌گیرد، اما فعلا فاز آزمایشی آن رونمایی شده و اخباری از ویژگی‌ها و قابلیت‌های جدید آن در دست داریم. این رابط کاربری، قرار است در جدیدترین دستگاه سامسونگ یعنی  قوی‌تر و پیچیده‌تر از قبل شده! ویجت‌های بیکسبی در رابط کاربری جدید، امکان دستورهای متنی را فراهم کرده. ویجت‌ها در دو اندازه در دسترس خواهند بود:ویجت کوچک که دسترسی فوری به بخش صوتی و متنی را ایجاد کرده.ویجت بزرگ که یک نوار جهت تایپ کردن در کنار یک دکمه میکروفون برای فرامین صوتی را نشان می‌دهد.",
+      "image": "src/assets/blogImages/oneui9news.webp"
+    },
+    {
+      "id": "6",
+      "category": "blog",
+      "title": "اخبار گوشی گلکسی S27 Ultra!",
+      "description": "خبر جدیدی که در شبکه X منتشر شد، ما را با اولین مشخصات دوربین تله فوتو اس ۲۷ اولترا روبرو می‌کند. اگر این شایعات درست باشند، سامسونگ قصد دارد دو تله فوتویی که روی S26 Ultra بود را با یک سنسور “1/1.9 جایگزین کند.این دوربین دارای زوم اپتیکال ۴ برابر است که چیزی مابین دو دوربین تله فوتو S26 Ultra قرار می‌گیرد. (در گوشی قبلی قابلیت‌های تله‌فوتوها ۳ برابر و ۵ برابر بودند).این‌ها اولین اطلاعاتی بود که از دوربین تله فوتو مشخص شد. قطعا هرچه جلوتر برویم، سامسونگ مشخصات بیشتری را برای ما برملا خواهد کرد.درست مانند نسخه اولترا، این گوشی هم به پردازنده اسنپدراگون ۸ الیت نسل ۶ پرو مجهز شده. با این حال، بعید نیست که سامسونگ نظرش را عوض کند و این گوشی را به اگزینوس ۲۷۰۰ راهی بازار کند. رم پایه گوشی نیز احتمالا ۱۲ یا ۱۶ گیگابایت خواهد بود که با چند ظرفیت داخلی همراه می‌شود.",
+      "image": "src/assets/blogImages/s27ultranews.jpg"
+    }
+  ],
+  "contactInfo": {
+    "address": "تبریز - مرزداران",
+    "phone": "041-77777777",
+    "email": "info@moboland.com"
+  },
+  "contactMessages": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

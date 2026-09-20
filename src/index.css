@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0079b1;
+  --color-secondary: rgb(162, 155, 254);
+  --color-primary-text: rgb(31, 41, 55);
+  --color-secondary-text: rgb(107, 114, 128);
+  --color-bg: rgb(243, 244, 246);
+  --color-gray: rgb(69, 40, 41);
+  --color-success: rgb(16, 185, 129);
+  --color-error: rgb(239, 68, 68);
+  --color-active-slideBtn: #575757a3;
+  --color-input: #f0f0f0;
+
+  --font-dana-Medium: "Dana-Medium";
+  --font-dana-DemiBold: "Dana-DemiBold";
+
+  --breakpoint-xs: 450px;
+  --breakpoint-2md: 996px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Dana", sans-serif;
+    font-size: 16px;
+    background-color: var(--color-bg);
+    color: var(--color-primary-text);
+  }
+  @font-face {
+    font-family: "Dana";
+    src:
+      local("Dana"),
+      url(/fonts/Dana/woff2/DanaFaNum-Regular.woff2) format(woff2);
+  }
+  @font-face {
+    font-family: "Dana-Medium";
+    src:
+      local("Dana-Medium"),
+      url(/fonts/Dana/woff2/DanaFaNum-Medium.woff2) format(woff2);
+  }
+  @font-face {
+    font-family: "Dana-DemiBold";
+    src:
+      local("Dana-DemiBold"),
+      url(/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2) format(woff2);
+  }
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.page-enter {
+  animation: pageEnter 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes auth-form {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-auth-form {
+  animation: auth-form 0.3s ease-out;
+}
+
+.MyGradient {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
