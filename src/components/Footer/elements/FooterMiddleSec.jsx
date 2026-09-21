@@ -18,28 +18,28 @@ const FooterMiddleSec = () => {
         <div className="flex gap-4 max-xs:**:[&>img]:size-6 **:[&>img]:transition-all **:[&>img]:duration-300 **:[&>img]:ease-in-out **:[&>img]:hover:brightness-100 **:[&>img]:hover:invert-0">
           <Link>
             <img
-              src="/public/social-media/instagram.webp"
+              src="/social-media/instagram.webp"
               alt="instagram"
               className="brightness-10 invert"
             />
           </Link>
           <Link>
             <img
-              src="/public/social-media/aparat.webp"
+              src="/social-media/aparat.webp"
               alt="aparat"
               className="brightness-10 invert"
             />
           </Link>
           <Link>
             <img
-              src="/public/social-media/telegram.webp"
+              src="/social-media/telegram.webp"
               alt="telegram"
               className="brightness-10 invert"
             />
           </Link>
           <Link>
             <img
-              src="/public/social-media/youtube.webp"
+              src="/social-media/youtube.webp"
               alt="youtube"
               className="brightness-10 invert"
             />
