@@ -49,6 +49,7 @@ const router = createBrowserRouter([
     path: "admin",
     element: <AdminDashboard />,
   },
+  { basename: "/mobo-land-shop" },
 ]);
 
 export default router;

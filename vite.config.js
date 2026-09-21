@@ -5,6 +5,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig(({ command }) => ({
+  base: "/mobo-land-shop/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
