@@ -49,9 +49,6 @@ const router = createBrowserRouter([
     path: "admin",
     element: <AdminDashboard />,
   },
-  {
-    basename: import.meta.env.BASE_URL,
-  },
 ]);
 
 export default router;
