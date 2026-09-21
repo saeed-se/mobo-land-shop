@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "server": "json-server --watch server-data/db.json --port 3000",
     "server:prod": "json-server --watch server-data/db.json --host 0.0.0.0 --port $PORT",
-    "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
