@@ -10,7 +10,7 @@ const BasketTooltipContent = ({ products }) => {
   if (!products.length) {
     return (
       <div className="flex flex-col items-center  gap-4">
-        <img src="/public/empty-basket.svg" alt="empty" />
+        <img src="/empty-basket.svg" alt="empty" />
         <p className="font-dana-Medium">سبد خرید شما خالی است!</p>
       </div>
     );
