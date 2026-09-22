@@ -61,7 +61,7 @@ const MobileNavMenu = ({ closeMobileMenu, isOpenMobileMenu }) => {
         </ul>
       </div>
       <div className="flex flex-col items-center gap-4 mt-15">
-        {isAuthenticated && user.role !== "user" && (
+        {isAuthenticated && user.role !== "customer" && (
           <Button
             text="پنل مدیریت"
             icon={<MdAdminPanelSettings size={20} />}
