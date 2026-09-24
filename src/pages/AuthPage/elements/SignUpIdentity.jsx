@@ -90,13 +90,13 @@ const SignUpIdentity = () => {
             {...register("password")}
             type={showPassword ? "text" : "password"}
             placeholder="رمز عبور"
-            className="w-full rounded-lg border border-gray-300 px-4 py-1.5 pl-12 outline-none transition focus:border-primary md:py-3 placeholder:text-xs md:placeholder:text-base"
+            className="w-full rounded-lg border border-gray-300 px-4 py-1.5 pl-12 outline-none font-sans transition focus:border-primary md:py-3 placeholder:text-xs md:placeholder:text-base"
           />
 
           <button
             type="button"
             onClick={() => setShowPassword((prev) => !prev)}
-            className="absolute left-5 top-4 cursor-pointer text-gray-500 transition-all hover:text-primary"
+            className="absolute left-5 top-2 cursor-pointer text-gray-500 transition-all hover:text-primary"
             aria-label={showPassword ? "مخفی کردن رمز عبور" : "نمایش رمز عبور"}
           >
             {showPassword ? (

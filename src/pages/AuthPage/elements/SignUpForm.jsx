@@ -85,7 +85,10 @@ const SignUpForm = () => {
 
   return (
     <FormProvider {...methods}>
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className="space-y-4 *:[&>input]:font-sans"
+      >
         {step === 1 ? (
           <>
             <CitySelect value={city} onChange={handleCityChange} />

@@ -24,7 +24,7 @@ const ProductBox = ({
           <img src={image} alt={name} width={186} height={186} />
         </div>
         <div className="line-clamp-2">
-          <h2 className="font-dana-DemiBold h-10 lg:text-sm">{desc}</h2>
+          <h2 className="font-dana-DemiBold min-h-10 lg:text-sm">{desc}</h2>
         </div>
         {discount ? (
           <div>

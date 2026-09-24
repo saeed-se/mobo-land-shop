@@ -78,7 +78,7 @@ const CitySelect = ({ value, onChange }) => {
 
       {/* Dropdown */}
       {isOpen && (
-        <div className="absolute right-0 top-full z-50 mt-2 w-full overflow-hidden rounded-xl border border-gray-200 bg-white shadow-lg">
+        <div className="absolute right-0 top-full z-50 mt-2 w-full rounded-xl border border-gray-200 bg-white shadow-lg">
           {/* Search */}
           <div className="border-b border-gray-100 p-2">
             <div className="relative">
@@ -101,7 +101,7 @@ const CitySelect = ({ value, onChange }) => {
           </div>
 
           {/* Cities */}
-          <div className="max-h-35 overflow-y-auto p-1.5">
+          <div className="max-h-35 overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-gray-400 p-1.5">
             {filteredCities.length > 0 ? (
               filteredCities.map((city) => {
                 const isSelected = city === value;
