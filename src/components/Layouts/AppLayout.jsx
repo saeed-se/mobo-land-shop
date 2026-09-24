@@ -1,6 +1,7 @@
 import { useContext, useState, useRef } from "react";
 
 import { Outlet, ScrollRestoration, useLocation } from "react-router";
+import { PulseLoader } from "react-spinners";
 
 import Container from "@/components/common/Container";
 import Header from "@/components/Header/Header";
@@ -37,7 +38,7 @@ const AppLayout = () => {
           key={pathname}
           className={`page-enter ${loading ? "flex justify-center items-center min-h-dvh" : ""}`}
         >
-          {loading ? <h2>سایت در حال بارگیری محصولات</h2> : <Outlet />}
+          {loading ? <PulseLoader color={"#0079b1"} size={12} /> : <Outlet />}
         </div>
       </main>
 
