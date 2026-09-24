@@ -3,9 +3,21 @@ import api from "./api";
 const RESOURCE = "/products";
 
 export const getProducts = async () => {
-  const { data } = await api.get(RESOURCE);
+  const maxRetries = 4;
 
-  return data;
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const { data } = await api.get(RESOURCE);
+
+      return data;
+    } catch (error) {
+      if (attempt === maxRetries) {
+        throw error;
+      }
+
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+    }
+  }
 };
 
 export const getProductsBySlug = async (slug) => {
