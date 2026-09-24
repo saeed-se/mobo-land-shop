@@ -38,7 +38,11 @@ const AppLayout = () => {
           key={pathname}
           className={`page-enter ${loading ? "flex justify-center items-center min-h-dvh" : ""}`}
         >
-          {loading ? <PulseLoader color={"#0079b1"} size={12} /> : <Outlet />}
+          {loading ? (
+            <PulseLoader className="max-xs:mb-40" color={"#0079b1"} size={12} />
+          ) : (
+            <Outlet />
+          )}
         </div>
       </main>
 
