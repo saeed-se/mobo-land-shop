@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { useParams } from "react-router";
 
 import Bread from "./elements/Bread";
@@ -8,18 +8,13 @@ const ProductDetails = () => {
   const { slug } = useParams();
   const { products } = useContext(ProductsContext);
 
-  const [product, setProduct] = useState(null);
-
-  useEffect(() => {
-    const foundProduct = products.find((product) => product.slug === slug);
-
-    setProduct(foundProduct);
-  }, [products, slug]);
+  const product = products.find((item) => item.slug === slug);
 
   return (
     <div>
       <Bread product={product} />
-      <h1 className="bg-amber-400">{product?.name}</h1>
+
+      <h1 className="bg-amber-400">{product.name}</h1>
     </div>
   );
 };

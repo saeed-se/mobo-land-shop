@@ -1929,7 +1929,7 @@
     {
       "id": "36",
       "name": "Sony WH-1000XM6",
-      "category": "هدفون",
+      "category": "headphone",
       "slug": "36",
       "brand": "Generic",
       "stock": 5,
@@ -1942,7 +1942,7 @@
     {
       "id": "37",
       "name": "JBL Tune 770",
-      "category": "هدفون",
+      "category": "headphone",
       "slug": "37",
       "brand": "Generic",
       "stock": 33,
@@ -1955,7 +1955,7 @@
     {
       "id": "38",
       "name": "AirPods Pro 2",
-      "category": "هدفون",
+      "category": "headphone",
       "slug": "AirPods Pro 2",
       "brand": "Apple",
       "stock": 26,
@@ -1970,7 +1970,7 @@
     {
       "id": "39",
       "name": "Galaxy Buds 3",
-      "category": "هدفون",
+      "category": "headphone",
       "slug": "39",
       "brand": "Generic",
       "stock": 39,
@@ -1983,7 +1983,7 @@
     {
       "id": "40",
       "name": "Xiaomi Buds 5",
-      "category": "هدفون",
+      "category": "headphone",
       "slug": "40",
       "brand": "Generic",
       "stock": 20,
@@ -1996,7 +1996,7 @@
     {
       "id": "41",
       "name": "JBL Live",
-      "category": "هدفون",
+      "category": "headphone",
       "slug": "41",
       "brand": "Generic",
       "stock": 50,
@@ -2009,7 +2009,7 @@
     {
       "id": "42",
       "name": "Sony WF",
-      "category": "هدفون",
+      "category": "headphone",
       "slug": "42",
       "brand": "Generic",
       "stock": 37,
@@ -2022,7 +2022,7 @@
     {
       "id": "43",
       "name": "AirPods 4",
-      "category": "هدفون",
+      "category": "headphone",
       "slug": "43",
       "brand": "Generic",
       "stock": 5,
