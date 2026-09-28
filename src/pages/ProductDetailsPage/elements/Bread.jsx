@@ -41,15 +41,15 @@ const Bread = ({ product }) => {
       <span>/</span>
 
       <Link
-        to={`/products?category=${product.category}`}
+        to={`/products?category=${product?.category}`}
         className="text-gray-500"
       >
-        {product.category}
+        {product?.category}
       </Link>
 
       <span>/</span>
 
-      <span>{product.slug}</span>
+      <span>{product?.slug}</span>
     </nav>
   );
 };

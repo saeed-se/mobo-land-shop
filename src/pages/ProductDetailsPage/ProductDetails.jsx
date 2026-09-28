@@ -10,15 +10,15 @@ const ProductDetails = () => {
 
   const [product, setProduct] = useState(null);
 
-  // useEffect(() => {
-  //   const foundProduct = products.find((product) => product.slug === slug);
+  useEffect(() => {
+    const foundProduct = products.find((product) => product.slug === slug);
 
-  //   setProduct(foundProduct);
-  // }, [products, slug]);
+    setProduct(foundProduct);
+  }, [products, slug]);
 
   return (
     <div>
-      {/* <Bread product={product} /> */}
+      <Bread product={product} />
       <h1 className="bg-amber-400">{product?.name}</h1>
     </div>
   );
