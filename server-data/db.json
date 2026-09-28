@@ -63,7 +63,7 @@
     {
       "id": "2",
       "name": "iPhone 13",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-15-plus",
       "brand": "iPhone",
       "stock": 22,
@@ -123,7 +123,7 @@
     {
       "id": "3",
       "name": "iPhone 15 Pro",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-15-pro",
       "brand": "iPhone",
       "stock": 17,
@@ -183,7 +183,7 @@
     {
       "id": "4",
       "name": "iPhone 15 Pro Max",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-15-pro-max",
       "brand": "iPhone",
       "stock": 33,
@@ -243,7 +243,7 @@
     {
       "id": "5",
       "name": "iPhone 16",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-16",
       "brand": "iPhone",
       "stock": 6,
@@ -303,7 +303,7 @@
     {
       "id": "6",
       "name": "iPhone 14",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-14",
       "brand": "iPhone",
       "stock": 11,
@@ -363,7 +363,7 @@
     {
       "id": "7",
       "name": "iPhone 16 Pro",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-16-pro",
       "brand": "iPhone",
       "stock": 7,
@@ -423,7 +423,7 @@
     {
       "id": "8",
       "name": "iPhone 16 Pro Max",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-16-pro-max",
       "brand": "iPhone",
       "stock": 21,
@@ -483,7 +483,7 @@
     {
       "id": "9",
       "name": "iPhone 17",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-17",
       "brand": "iPhone",
       "stock": 19,
@@ -543,7 +543,7 @@
     {
       "id": "10",
       "name": "iPhone 17 Air",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-17-air",
       "brand": "iPhone",
       "stock": 36,
@@ -603,7 +603,7 @@
     {
       "id": "11",
       "name": "iPhone 17 Pro",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-17-pro",
       "brand": "iPhone",
       "stock": 7,
@@ -663,7 +663,7 @@
     {
       "id": "12",
       "name": "iPhone 17 Pro Max",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "iphone-17-pro-max",
       "brand": "iPhone",
       "stock": 37,
@@ -723,7 +723,7 @@
     {
       "id": "13",
       "name": "Samsung Galaxy S25 fe",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "galaxy-s25 fe",
       "brand": "Samsung",
       "stock": 10,
@@ -783,7 +783,7 @@
     {
       "id": "14",
       "name": "Samsung Galaxy S25",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "galaxy-s25",
       "brand": "Samsung",
       "stock": 30,
@@ -843,7 +843,7 @@
     {
       "id": "15",
       "name": "Samsung Galaxy S25 Ultra",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "galaxy-s25-ultra",
       "brand": "Samsung",
       "stock": 6,
@@ -903,7 +903,7 @@
     {
       "id": "16",
       "name": "Galaxy A56",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "galaxy-a56",
       "brand": "Galaxy",
       "stock": 14,
@@ -963,7 +963,7 @@
     {
       "id": "17",
       "name": "Galaxy A36",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "galaxy-a36",
       "brand": "Galaxy",
       "stock": 15,
@@ -1023,7 +1023,7 @@
     {
       "id": "18",
       "name": "Galaxy Z Fold 7",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "galaxy-z-fold-7",
       "brand": "Galaxy",
       "stock": 16,
@@ -1083,7 +1083,7 @@
     {
       "id": "19",
       "name": "Galaxy Z Flip 7",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "galaxy-z-flip-7",
       "brand": "Galaxy",
       "stock": 11,
@@ -1143,7 +1143,7 @@
     {
       "id": "20",
       "name": "Xiaomi 15",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "xiaomi-15",
       "brand": "Xiaomi",
       "stock": 16,
@@ -1203,7 +1203,7 @@
     {
       "id": "21",
       "name": "Xiaomi 15 Pro",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "xiaomi-15-pro",
       "brand": "Xiaomi",
       "stock": 15,
@@ -1263,7 +1263,7 @@
     {
       "id": "22",
       "name": "Xiaomi 15 Ultra",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "xiaomi-15-ultra",
       "brand": "Xiaomi",
       "stock": 20,
@@ -1323,7 +1323,7 @@
     {
       "id": "23",
       "name": "Redmi Note 15 Pro",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "redmi-note-15-pro",
       "brand": "Redmi",
       "stock": 28,
@@ -1383,7 +1383,7 @@
     {
       "id": "24",
       "name": "Poco F7 Pro",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "poco-f7-pro",
       "brand": "Poco",
       "stock": 32,
@@ -1443,7 +1443,7 @@
     {
       "id": "25",
       "name": "Poco F7 Ultra",
-      "category": "mobile",
+      "category": "موبایل",
       "slug": "poco-f7-ultra",
       "brand": "Poco",
       "stock": 18,
@@ -1503,7 +1503,7 @@
     {
       "id": "26",
       "name": "Asus ROG Strix",
-      "category": "laptop",
+      "category": "لپ تاپ",
       "slug": "asus-rog-strix",
       "brand": "Asus",
       "stock": 12,
@@ -1545,7 +1545,7 @@
     {
       "id": "27",
       "name": "Asus TUF Gaming",
-      "category": "laptop",
+      "category": "لپ تاپ",
       "slug": "asus-tuf-gaming",
       "brand": "Asus",
       "stock": 20,
@@ -1587,7 +1587,7 @@
     {
       "id": "28",
       "name": "Asus Zenbook",
-      "category": "laptop",
+      "category": "لپتاپ",
       "slug": "asus-zenbook",
       "brand": "Asus",
       "stock": 18,
@@ -1629,7 +1629,7 @@
     {
       "id": "29",
       "name": "Asus Vivobook 15",
-      "category": "laptop",
+      "category": "لپتاپ",
       "slug": "asus-vivobook-15",
       "brand": "Asus",
       "stock": 10,
@@ -1673,7 +1673,7 @@
     {
       "id": "30",
       "name": "Lenovo Legion",
-      "category": "laptop",
+      "category": "لپتاپ",
       "slug": "lenovo-legion",
       "brand": "Lenovo",
       "stock": 5,
@@ -1715,7 +1715,7 @@
     {
       "id": "31",
       "name": "Lenovo LOQ",
-      "category": "laptop",
+      "category": "لپتاپ",
       "slug": "lenovo-loq",
       "brand": "Lenovo",
       "stock": 20,
@@ -1757,7 +1757,7 @@
     {
       "id": "32",
       "name": "Lenovo IdeaPad slim 3",
-      "category": "laptop",
+      "category": "لپتاپ",
       "slug": "Lenovo IdeaPad slim 3",
       "brand": "Lenovo",
       "stock": 3,
@@ -1801,7 +1801,7 @@
     {
       "id": "33",
       "name": "Lenovo IdeaPad",
-      "category": "laptop",
+      "category": "لپتاپ",
       "slug": "lenovo-ideapad",
       "brand": "Lenovo",
       "stock": 15,
@@ -1843,7 +1843,7 @@
     {
       "id": "34",
       "name": "Asus ProArt",
-      "category": "laptop",
+      "category": "لپتاپ",
       "slug": "asus-proart",
       "brand": "Asus",
       "stock": 20,
@@ -1885,7 +1885,7 @@
     {
       "id": "35",
       "name": "MacBook Air M4",
-      "category": "laptop",
+      "category": "لپتاپ",
       "slug": "MacBook Air M4",
       "brand": "Apple",
       "stock": 5,
@@ -2050,7 +2050,7 @@
     {
       "id": "45",
       "name": "PS5 Pro",
-      "category": "console",
+      "category": "کنسول",
       "slug": "45",
       "brand": "Generic",
       "stock": 28,
@@ -2063,7 +2063,7 @@
     {
       "id": "46",
       "name": "Xbox Series X",
-      "category": "console",
+      "category": "کنسول",
       "slug": "46",
       "brand": "Generic",
       "stock": 15,
@@ -2076,7 +2076,7 @@
     {
       "id": "47",
       "name": "Nintendo Switch 2",
-      "category": "console",
+      "category": "کنسول",
       "slug": "47",
       "brand": "Generic",
       "stock": 12,
@@ -2089,7 +2089,7 @@
     {
       "id": "48",
       "name": "Samsung 45W Charger",
-      "category": "accessory",
+      "category": "لوازم جانبی",
       "slug": "Samsung 45W Charger",
       "brand": "Samsung",
       "stock": 42,
@@ -2104,7 +2104,7 @@
     {
       "id": "49",
       "name": "Samsung 25W Charger",
-      "category": "accessory",
+      "category": "لوازم جانبی",
       "slug": "Samsung 25W Charger",
       "brand": "Samsung",
       "stock": 21,
@@ -2117,7 +2117,7 @@
     {
       "id": "50",
       "name": "هندزفری سیمی",
-      "category": "accessory",
+      "category": "لوازم جانبی",
       "slug": "50",
       "brand": "Generic",
       "stock": 44,

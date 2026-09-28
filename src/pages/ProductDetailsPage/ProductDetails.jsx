@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 
+import Bread from "./elements/Bread";
 import { getProductsBySlug } from "@/services/products";
-import Breadcrumb from "@/Pages/ProductDetailsPage/elements/Breadcrumb";
 
 const ProductDetails = () => {
   const { slug } = useParams();
@@ -28,9 +28,8 @@ const ProductDetails = () => {
 
   return (
     <div>
-      <Breadcrumb product={product} />
-
-      <h1>{product.name}</h1>
+      <Bread product={product} />
+      <h1 className="bg-amber-400">{product.name}</h1>
     </div>
   );
 };

@@ -33,7 +33,7 @@ const Navbar = ({ showNavbar }) => {
                 {/* Nav Sub */}
 
                 {item.hasSub && (
-                  <div className="bg-white absolute top-11 w-55 h-fit pl-0! shadow-2xs border border-gray/10 invisible opacity-0 group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out z-40">
+                  <div className="bg-white absolute top-11 w-50 h-fit pl-0! shadow-2xs border border-gray/10 invisible opacity-0 group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out z-40">
                     <ul className="*:pr-2 *:py-3 *:hover:bg-black/5 *:hover:transition-colors *:hover:duration-200 *:hover:ease-in-out">
                       {categoryItems.map((item, idx) => (
                         <DesktopMenuItems key={item.id} item={item} idx={idx} />
