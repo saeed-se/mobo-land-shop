@@ -1,36 +1,34 @@
 import { Link } from "react-router";
 
 const Bread = ({ product }) => {
-  // const categoryInfo = {
-  //   mobile: {
-  //     label: "موبایل",
-  //     path: "/products?category=mobile",
-  //     parent: false,
-  //   },
+  const categoryInfo = {
+    موبایل: {
+      label: "موبایل",
+      path: "/products?category=mobile",
+      parent: false,
+    },
 
-  //   laptop: {
-  //     label: "لپ‌تاپ",
-  //     path: "/products?category=laptop",
-  //     parent: true,
-  //   },
+    "لپ تاپ": {
+      label: "لپ‌ تاپ",
+      path: "/products?category=laptop",
+      parent: true,
+    },
 
-  //   هدفون: {
-  //     label: "هدفون",
-  //     path: "/products?category=هدفون",
-  //     parent: true,
-  //   },
+    هدفون: {
+      label: "هدفون",
+      path: "/products?category=هدفون",
+      parent: true,
+    },
 
-  //   console: {
-  //     label: "کنسول بازی",
-  //     path: "/products?category=console",
-  //     parent: true,
-  //   },
-  // };
-  // console.log(product);
+    کنسول: {
+      label: "کنسول بازی",
+      path: "/products?category=console",
+      parent: true,
+    },
+  };
 
-  // const category = categoryInfo[product.category];
-
-  // if (!category) return null;
+  const category = categoryInfo[product.category];
+  console.log(category);
 
   return (
     <nav className="flex items-center gap-2">
