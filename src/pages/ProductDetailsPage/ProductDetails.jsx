@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { useParams } from "react-router";
 
-import Bread from "./elements/Bread";
+import Breadcrumb from "./elements/Breadcrumb";
 import { ProductsContext } from "@/contexts/ProductsProvider";
 
 const ProductDetails = () => {
@@ -12,7 +12,7 @@ const ProductDetails = () => {
 
   return (
     <div>
-      <Bread product={product} />
+      <Breadcrumb product={product} />
 
       <h1 className="bg-amber-400">{product.name}</h1>
     </div>

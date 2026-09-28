@@ -24,6 +24,7 @@ const categoryInfo = {
 
 const Breadcrumb = ({ product }) => {
   const category = categoryInfo[product.category];
+  console.log(product);
 
   return (
     <nav className="flex items-center gap-2">
