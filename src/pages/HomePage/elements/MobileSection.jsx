@@ -5,7 +5,7 @@ const MobileSection = () => {
   return (
     <Container>
       <SectionTitle title={"موبایل"} btnText={"مشاهده همه"} />
-      <SectionSlider category={"mobile"} />
+      <SectionSlider category={"موبایل"} />
     </Container>
   );
 };

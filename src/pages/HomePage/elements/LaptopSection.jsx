@@ -6,7 +6,7 @@ const LaptopSection = () => {
   return (
     <Container>
       <SectionTitle title={"لپ تاپ"} btnText={"مشاهده همه"} />
-      <SectionSlider category={"laptop"} />
+      <SectionSlider category={"لپ تاپ"} />
     </Container>
   );
 };

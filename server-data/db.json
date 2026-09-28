@@ -1443,7 +1443,7 @@
     {
       "id": "25",
       "name": "Poco F7 Ultra",
-      "category": "موبایل",
+      "category": "مو بایل",
       "slug": "poco-f7-ultra",
       "brand": "Poco",
       "stock": 18,
@@ -1503,7 +1503,7 @@
     {
       "id": "26",
       "name": "Asus ROG Strix",
-      "category": "لپ تاپ",
+      "category": "لپ  تاپ",
       "slug": "asus-rog-strix",
       "brand": "Asus",
       "stock": 12,
@@ -1545,7 +1545,7 @@
     {
       "id": "27",
       "name": "Asus TUF Gaming",
-      "category": "لپ تاپ",
+      "category": "لپ  تاپ",
       "slug": "asus-tuf-gaming",
       "brand": "Asus",
       "stock": 20,
@@ -1587,7 +1587,7 @@
     {
       "id": "28",
       "name": "Asus Zenbook",
-      "category": "لپتاپ",
+      "category": "لپ تاپ",
       "slug": "asus-zenbook",
       "brand": "Asus",
       "stock": 18,
@@ -1629,7 +1629,7 @@
     {
       "id": "29",
       "name": "Asus Vivobook 15",
-      "category": "لپتاپ",
+      "category": "لپ تاپ",
       "slug": "asus-vivobook-15",
       "brand": "Asus",
       "stock": 10,
@@ -1673,7 +1673,7 @@
     {
       "id": "30",
       "name": "Lenovo Legion",
-      "category": "لپتاپ",
+      "category": "لپ تاپ",
       "slug": "lenovo-legion",
       "brand": "Lenovo",
       "stock": 5,
@@ -1715,7 +1715,7 @@
     {
       "id": "31",
       "name": "Lenovo LOQ",
-      "category": "لپتاپ",
+      "category": "لپ تاپ",
       "slug": "lenovo-loq",
       "brand": "Lenovo",
       "stock": 20,
@@ -1757,7 +1757,7 @@
     {
       "id": "32",
       "name": "Lenovo IdeaPad slim 3",
-      "category": "لپتاپ",
+      "category": "لپ تاپ",
       "slug": "Lenovo IdeaPad slim 3",
       "brand": "Lenovo",
       "stock": 3,
@@ -1801,7 +1801,7 @@
     {
       "id": "33",
       "name": "Lenovo IdeaPad",
-      "category": "لپتاپ",
+      "category": "لپ تاپ",
       "slug": "lenovo-ideapad",
       "brand": "Lenovo",
       "stock": 15,
@@ -1843,7 +1843,7 @@
     {
       "id": "34",
       "name": "Asus ProArt",
-      "category": "لپتاپ",
+      "category": "لپ تاپ",
       "slug": "asus-proart",
       "brand": "Asus",
       "stock": 20,
@@ -1885,7 +1885,7 @@
     {
       "id": "35",
       "name": "MacBook Air M4",
-      "category": "لپتاپ",
+      "category": "لپ تاپ",
       "slug": "MacBook Air M4",
       "brand": "Apple",
       "stock": 5,
