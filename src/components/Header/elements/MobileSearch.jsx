@@ -78,6 +78,7 @@ const MobileSearch = ({ isOpenSearch, setIsOpenSearch, ref }) => {
         onClose={productClickHandler}
         products={products}
         isLoading={isLoading}
+        error={error}
       />
     </div>
   );
