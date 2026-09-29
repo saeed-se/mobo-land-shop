@@ -12,7 +12,7 @@ const categoryInfo = {
   },
   headphone: {
     label: "هدفون",
-    path: "/products?category=هدفون",
+    path: "/products?category=headphone",
     parent: true,
   },
   console: {
@@ -20,11 +20,15 @@ const categoryInfo = {
     path: "/products?category=console",
     parent: true,
   },
+  accessory: {
+    label: "لوازم جانبی موبایل",
+    path: "/products?category=accessory",
+    parent: false,
+  },
 };
 
 const Breadcrumb = ({ product }) => {
   const category = categoryInfo[product.category];
-  console.log(product);
 
   return (
     <nav className="flex items-center gap-2">

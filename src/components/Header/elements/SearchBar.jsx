@@ -68,6 +68,7 @@ const SearchBar = () => {
             onClose={productClickHandler}
             products={products}
             isLoading={isLoading}
+            error={error}
           />
         )}
       </div>

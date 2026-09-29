@@ -39,8 +39,6 @@ const useProductsSearch = (query) => {
           return;
         }
 
-        console.error("SEARCH ERROR:", error);
-
         setProducts([]);
         setError(error);
       } finally {

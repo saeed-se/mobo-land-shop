@@ -2,7 +2,7 @@ import { AiOutlineAppstoreAdd } from "react-icons/ai";
 import { IoHourglassOutline } from "react-icons/io5";
 import { Link } from "react-router";
 
-const SearchResult = ({ query, products, isLoading, onClose }) => {
+const SearchResult = ({ query, products, isLoading, error, onClose }) => {
   return (
     <div
       dir="rtl"
@@ -25,16 +25,19 @@ const SearchResult = ({ query, products, isLoading, onClose }) => {
             </p>
           </div>
           <div className="space-y-3 md:space-y-1.5 mt-4">
-            {products.length === 0 && !isLoading ? (
+            {error ? (
               <div className="text-center">
-                <span> ): متاسفانه محصولی یافت نشد</span>
+                <span>): متاسفانه خطایی هنگام دریافت محصولات رخ داد</span>
               </div>
             ) : isLoading ? (
               <div className="flex flex-row-reverse justify-center gap-2 text-center">
-                <p>در حال جستجو محصول</p>
-                <IoHourglassOutline />
+                <p>در حال جستجو محصول</p> <IoHourglassOutline />
               </div>
-            ) : products.length > 0 ? (
+            ) : products.length === 0 ? (
+              <div className="text-center">
+                <span>): متاسفانه محصولی یافت نشد</span>
+              </div>
+            ) : (
               products.map((product) => (
                 <div
                   dir="rtl"
@@ -54,7 +57,7 @@ const SearchResult = ({ query, products, isLoading, onClose }) => {
                   </Link>
                 </div>
               ))
-            ) : null}
+            )}
           </div>
         </div>
       ) : (

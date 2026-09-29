@@ -19,11 +19,3 @@ export const getProducts = async () => {
     }
   }
 };
-
-export const getProductsBySlug = async (slug) => {
-  const { data } = await api.get(RESOURCE, {
-    params: { slug },
-  });
-
-  return data[0];
-};
