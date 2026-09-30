@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import { useParams } from "react-router";
 
+import Container from "@/components/common/Container";
 import Breadcrumb from "./elements/Breadcrumb";
 import { ProductsContext } from "@/contexts/ProductsProvider";
+import ProductInfo from "./elements/ProductInfo";
 
 const ProductDetails = () => {
   const { slug } = useParams();
@@ -12,9 +14,11 @@ const ProductDetails = () => {
 
   return (
     <div>
-      <Breadcrumb product={product} />
+      <Container>
+        <Breadcrumb product={product} />
 
-      <h1 className="bg-amber-400">{product.name}</h1>
+        <ProductInfo product={product} />
+      </Container>
     </div>
   );
 };

@@ -31,7 +31,7 @@ const Breadcrumb = ({ product }) => {
   const category = categoryInfo[product.category];
 
   return (
-    <nav className="flex items-center gap-2">
+    <nav className="flex items-center gap-2 mt-4">
       <Link to="/" className="text-gray-500">
         خانه
       </Link>
