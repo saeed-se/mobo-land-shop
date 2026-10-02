@@ -5,14 +5,13 @@
       "name": "iPhone 15",
       "category": "mobile",
       "slug": "iphone-15",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 8,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone15.webp",
       "desc": "گوشی موبایل اپل iPhone 15 CH/A دو سیم کارت رم 6 گیگابایت - رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 15، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -29,10 +28,6 @@
             {
               "name": "آبی",
               "hex": "#2563EB"
-            },
-            {
-              "name": "سبز",
-              "hex": "#22C55E"
             }
           ]
         },
@@ -40,14 +35,6 @@
           "storage": "512GB",
           "price": 215000000,
           "colors": [
-            {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
             {
               "name": "آبی",
               "hex": "#2563EB"
@@ -65,23 +52,18 @@
       "name": "iPhone 13",
       "category": "mobile",
       "slug": "iphone-13",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 22,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone13.png",
       "desc": "گوشی موبایل اپل مدل iPhone 13 HN/A تک سیم کارت رم 4 گیگابایت رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 15 Plus، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
           "price": 170000000,
           "colors": [
-            {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
             {
               "name": "سفید",
               "hex": "#FFFFFF"
@@ -103,18 +85,6 @@
             {
               "name": "مشکی",
               "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
-            },
-            {
-              "name": "سبز",
-              "hex": "#22C55E"
             }
           ]
         }
@@ -125,14 +95,13 @@
       "name": "iPhone 15 Pro",
       "category": "mobile",
       "slug": "iphone-15-pro",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 17,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone15pro.webp",
       "desc": "گوشی موبایل اپل iPhone 15 Pro ZA/A دو سیم کارت ظرفیت رم 8 گیگابایت",
-      "longDesc": "توضیحات کامل درباره iPhone 15 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -145,10 +114,6 @@
             {
               "name": "سفید",
               "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
             },
             {
               "name": "سبز",
@@ -185,14 +150,13 @@
       "name": "iPhone 15 Pro Max",
       "category": "mobile",
       "slug": "iphone-15-pro-max",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 33,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone15promax.webp",
       "desc": "گوشی موبایل اپل iPhone 15 Pro Max ZA/A دو سیم کارت ظرفیت رم 8 گیگابایت",
-      "longDesc": "توضیحات کامل درباره iPhone 15 Pro Max، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -245,30 +209,21 @@
       "name": "iPhone 16",
       "category": "mobile",
       "slug": "iphone-16",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 6,
       "hasDiscount": true,
       "discount": 20,
       "discountExpiresAt": "2026-10-30T23:59:59",
       "image": "/productsImage/iphone16.png",
       "desc": "گوشی موبایل اپل مدل iPhone 16 CH/A رم 8 گیگابایت رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 16، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
-          "storage": "256GB",
+          "storage": "128GB",
           "price": 240000000,
           "colors": [
             {
               "name": "مشکی",
               "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
             },
             {
               "name": "سبز",
@@ -277,7 +232,7 @@
           ]
         },
         {
-          "storage": "512GB",
+          "storage": "256GB",
           "price": 250000000,
           "colors": [
             {
@@ -285,16 +240,8 @@
               "hex": "#111827"
             },
             {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
               "name": "آبی",
               "hex": "#2563EB"
-            },
-            {
-              "name": "سبز",
-              "hex": "#22C55E"
             }
           ]
         }
@@ -305,14 +252,13 @@
       "name": "iPhone 14",
       "category": "mobile",
       "slug": "iphone-14",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 11,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone14.webp",
       "desc": "گوشی موبایل اپل مدل iPhone 14 CH/A تک سیم کارت ظرفیت 128 گیگابایت رم 4 گیگابایت رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 16 Plus، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -327,10 +273,6 @@
               "hex": "#FFFFFF"
             },
             {
-              "name": "آبی",
-              "hex": "#2563EB"
-            },
-            {
               "name": "سبز",
               "hex": "#22C55E"
             }
@@ -340,14 +282,6 @@
           "storage": "512GB",
           "price": 170000000,
           "colors": [
-            {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
             {
               "name": "آبی",
               "hex": "#2563EB"
@@ -365,14 +299,13 @@
       "name": "iPhone 16 Pro",
       "category": "mobile",
       "slug": "iphone-16-pro",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 7,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone16pro.webp",
       "desc": "گوشی موبایل اپل مدل iPhone 16 Pro ZA/A رم 8 گیگابایت رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 16 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -385,10 +318,6 @@
             {
               "name": "سفید",
               "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
             },
             {
               "name": "سبز",
@@ -425,14 +354,13 @@
       "name": "iPhone 16 Pro Max",
       "category": "mobile",
       "slug": "iphone-16-pro-max",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 21,
       "hasDiscount": true,
       "discount": 10,
       "discountExpiresAt": "2026-10-30T23:59:59",
       "image": "/productsImage/iphone16promax.webp",
       "desc": "گوشی موبایل اپل مدل iPhone 16 Pro Max ZA/A رم 8 گیگابایت رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 16 Pro Max، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -461,18 +389,6 @@
           "price": 370000000,
           "colors": [
             {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
-            },
-            {
               "name": "سبز",
               "hex": "#22C55E"
             }
@@ -485,14 +401,13 @@
       "name": "iPhone 17",
       "category": "mobile",
       "slug": "iphone-17",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 19,
       "hasDiscount": true,
       "discount": 20,
       "discountExpiresAt": "2026-10-28T23:59:59",
       "image": "/productsImage/iphone17.webp",
       "desc": "گوشی موبایل اپل مد‌ل iPhone 17 CH/A رم 8 گیگابایت - رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 17، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -501,14 +416,6 @@
             {
               "name": "مشکی",
               "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
             },
             {
               "name": "سبز",
@@ -545,14 +452,13 @@
       "name": "iPhone 17 Air",
       "category": "mobile",
       "slug": "iphone-17-air",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 36,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone17air.webp",
       "desc": "گوشی موبایل اپل iPhone 17 Air رم 12 گیگابایت",
-      "longDesc": "توضیحات کامل درباره iPhone 17 Air، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -605,14 +511,13 @@
       "name": "iPhone 17 Pro",
       "category": "mobile",
       "slug": "iphone-17-pro",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 7,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone17pro.webp",
       "desc": "گوشی موبایل اپل مد‌ل iPhone 17 Pro CH/A رم 8 گیگابایت - رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 17 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -625,14 +530,6 @@
             {
               "name": "سفید",
               "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
-            },
-            {
-              "name": "سبز",
-              "hex": "#22C55E"
             }
           ]
         },
@@ -640,10 +537,6 @@
           "storage": "512GB",
           "price": 440000000,
           "colors": [
-            {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
             {
               "name": "سفید",
               "hex": "#FFFFFF"
@@ -665,14 +558,13 @@
       "name": "iPhone 17 Pro Max",
       "category": "mobile",
       "slug": "iphone-17-pro-max",
-      "brand": "iPhone",
+      "brand": "Apple",
       "stock": 37,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/iphone17promax.webp",
       "desc": "گوشی موبایل اپل مد‌ل iPhone 17 Pro Max CH/A رم 8 گیگابایت - رجیستر شده",
-      "longDesc": "توضیحات کامل درباره iPhone 17 Pro Max، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -709,10 +601,6 @@
               "hex": "#FFFFFF"
             },
             {
-              "name": "آبی",
-              "hex": "#2563EB"
-            },
-            {
               "name": "سبز",
               "hex": "#22C55E"
             }
@@ -732,7 +620,6 @@
       "discountExpiresAt": null,
       "image": "/productsImage/s25fe.webp",
       "desc": "گوشی موبايل سامسونگ مدل Galaxy S25 FE رم 8 گیگابایت - ویتنام",
-      "longDesc": "توضیحات کامل درباره Galaxy S25، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
@@ -741,10 +628,6 @@
             {
               "name": "مشکی",
               "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
             },
             {
               "name": "آبی",
@@ -769,10 +652,6 @@
               "hex": "#FFFFFF"
             },
             {
-              "name": "آبی",
-              "hex": "#2563EB"
-            },
-            {
               "name": "سبز",
               "hex": "#22C55E"
             }
@@ -792,27 +671,14 @@
       "discountExpiresAt": null,
       "image": "/productsImage/s25.webp",
       "desc": "گوشی موبايل سامسونگ مدل Galaxy S25 5G رم 12 گیگابایت",
-      "longDesc": "توضیحات کامل درباره Galaxy S25، مناسب برای استفاده روزمره و حرفه‌ای.",
       "variants": [
         {
           "storage": "256GB",
           "price": 280000000,
           "colors": [
             {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
-            {
               "name": "سفید",
               "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
-            },
-            {
-              "name": "سبز",
-              "hex": "#22C55E"
             }
           ]
         },
@@ -831,10 +697,6 @@
             {
               "name": "آبی",
               "hex": "#2563EB"
-            },
-            {
-              "name": "سبز",
-              "hex": "#22C55E"
             }
           ]
         }
@@ -851,8 +713,7 @@
       "discount": 30,
       "discountExpiresAt": "2026-10-22T23:59:59",
       "image": "/productsImage/s25ultra.webp",
-      "desc": "Galaxy S25 Ultra با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Galaxy S25 Ultra، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "desc": "گوشی موبایل سامسونگ Galaxy S25 Ultra 5G رم 12 گیگابایت - کره",
       "variants": [
         {
           "storage": "256GB",
@@ -905,14 +766,13 @@
       "name": "Galaxy A56",
       "category": "mobile",
       "slug": "galaxy-a56",
-      "brand": "Galaxy",
+      "brand": "Samsung",
       "stock": 14,
       "hasDiscount": true,
       "discount": 18,
       "discountExpiresAt": "2026-10-30T23:59:59",
       "image": "/productsImage/a56.webp",
-      "desc": "Galaxy A56 با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Galaxy A56، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "desc": "گوشی موبايل سامسونگ Galaxy A56 5G رم 8 گیگابایت - ویتنام",
       "variants": [
         {
           "storage": "256GB",
@@ -965,34 +825,21 @@
       "name": "Galaxy A36",
       "category": "mobile",
       "slug": "galaxy-a36",
-      "brand": "Galaxy",
+      "brand": "Samsung",
       "stock": 15,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
-      "image": "/productsImage/galaxya36.webp",
-      "desc": "Galaxy A36 با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Galaxy A36، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "image": "/productsImage/a36.png",
+      "desc": "گوشی موبايل سامسونگ Galaxy A36 5G رم 8 گیگابایت - ویتنام",
       "variants": [
         {
           "storage": "256GB",
           "price": 73000000,
           "colors": [
             {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
               "name": "آبی",
               "hex": "#2563EB"
-            },
-            {
-              "name": "سبز",
-              "hex": "#22C55E"
             }
           ]
         },
@@ -1003,14 +850,6 @@
             {
               "name": "مشکی",
               "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
             },
             {
               "name": "سبز",
@@ -1025,14 +864,13 @@
       "name": "Galaxy Z Fold 7",
       "category": "mobile",
       "slug": "galaxy-z-fold-7",
-      "brand": "Galaxy",
+      "brand": "Samsung",
       "stock": 16,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
-      "image": "/productsImage/galaxyzfold7.webp",
-      "desc": "Galaxy Z Fold 7 با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Galaxy Z Fold 7، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "image": "/productsImage/zfold7.webp",
+      "desc": "گوشی موبايل سامسونگ گلکسی Z Fold7 رم 12 گیگابایت",
       "variants": [
         {
           "storage": "256GB",
@@ -1085,14 +923,13 @@
       "name": "Galaxy Z Flip 7",
       "category": "mobile",
       "slug": "galaxy-z-flip-7",
-      "brand": "Galaxy",
+      "brand": "Samsung",
       "stock": 11,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
-      "image": "/productsImage/galaxyzflip7.webp",
-      "desc": "Galaxy Z Flip 7 با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Galaxy Z Flip 7، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "image": "/productsImage/zflip7.webp",
+      "desc": "گوشی موبايل سامسونگ گلکسی Z Flip7 رم 12 گیگابایت",
       "variants": [
         {
           "storage": "256GB",
@@ -1101,14 +938,6 @@
             {
               "name": "مشکی",
               "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
             },
             {
               "name": "سبز",
@@ -1151,8 +980,7 @@
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/xiaomi15.webp",
-      "desc": "Xiaomi 15 با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Xiaomi 15، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "desc": "گوشی موبايل شیائومی مدل Redmi Note 15 Pro 4G رم 8 گیگابایت",
       "variants": [
         {
           "storage": "256GB",
@@ -1211,8 +1039,7 @@
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/xiaomi15pro.webp",
-      "desc": "Xiaomi 15 Pro با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Xiaomi 15 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "desc": "گوشی موبايل شیائومی مدل Redmi Note 15 Pro 5G رم 8 گیگابایت",
       "variants": [
         {
           "storage": "256GB",
@@ -1241,14 +1068,6 @@
           "price": 330000000,
           "colors": [
             {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
               "name": "آبی",
               "hex": "#2563EB"
             },
@@ -1271,8 +1090,7 @@
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/xiaomi15ultra.webp",
-      "desc": "Xiaomi 15 Ultra با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Xiaomi 15 Ultra، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "desc": "گوشی موبايل شیائومی 5G 15 Ultra رم 16 گیگابایت",
       "variants": [
         {
           "storage": "256GB",
@@ -1311,10 +1129,6 @@
             {
               "name": "آبی",
               "hex": "#2563EB"
-            },
-            {
-              "name": "سبز",
-              "hex": "#22C55E"
             }
           ]
         }
@@ -1322,17 +1136,16 @@
     },
     {
       "id": "23",
-      "name": "Redmi Note 15 Pro",
+      "name": "Poco X4 Pro 5G",
       "category": "mobile",
-      "slug": "redmi-note-15-pro",
-      "brand": "Redmi",
+      "slug": "Poco X4 Pro 5G",
+      "brand": "Xiaomi",
       "stock": 28,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
-      "image": "/productsImage/redminote15pro.webp",
-      "desc": "Redmi Note 15 Pro با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Redmi Note 15 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "image": "/productsImage/pocox4pro.webp",
+      "desc": "گوشی موبایل شیائومی مدل Poco X4 Pro 5G - رم 8 گیگابایت",
       "variants": [
         {
           "storage": "256GB",
@@ -1385,14 +1198,13 @@
       "name": "Poco F7 Pro",
       "category": "mobile",
       "slug": "poco-f7-pro",
-      "brand": "Poco",
+      "brand": "Xiaomi",
       "stock": 32,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
       "image": "/productsImage/pocof7pro.webp",
-      "desc": "Poco F7 Pro با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Poco F7 Pro، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "desc": "گوشی موبایل پوکو F7 Pro رم 12 گیگابایت",
       "variants": [
         {
           "storage": "256GB",
@@ -1401,14 +1213,6 @@
             {
               "name": "مشکی",
               "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
-            },
-            {
-              "name": "آبی",
-              "hex": "#2563EB"
             },
             {
               "name": "سبز",
@@ -1442,17 +1246,16 @@
     },
     {
       "id": "25",
-      "name": "Poco F7 Ultra",
+      "name": "Poco F6",
       "category": "mobile",
-      "slug": "poco-f7-ultra",
-      "brand": "Poco",
+      "slug": "poco-f7",
+      "brand": "Xiaomi",
       "stock": 18,
       "hasDiscount": false,
       "discount": 0,
       "discountExpiresAt": null,
-      "image": "/productsImage/pocof7ultra.webp",
-      "desc": "Poco F7 Ultra با امکانات به‌روز و کیفیت ساخت بالا",
-      "longDesc": "توضیحات کامل درباره Poco F7 Ultra، مناسب برای استفاده روزمره و حرفه‌ای.",
+      "image": "/productsImage/pocof6.webp",
+      "desc": "گوشی موبایل پوکو F6 رم 12 گیگابایت",
       "variants": [
         {
           "storage": "256GB",
@@ -1509,11 +1312,10 @@
       "stock": 12,
       "hasDiscount": false,
       "image": "/productsImage/asusrogstrix.webp",
-      "desc": "Asus ROG Strix لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Asus ROG Strix",
+      "desc": "لپ تاپ ایسوس 16 اینچی مدل ROG Strix G16 G615LW Ultra 9 275HX 64GB RTX 5080",
       "variants": [
         {
-          "storage": "512GB",
+          "storage": "1TB",
           "price": 530000000,
           "colors": [
             {
@@ -1527,7 +1329,7 @@
           ]
         },
         {
-          "storage": "1TB",
+          "storage": "2TB",
           "price": 600000000,
           "colors": [
             {
@@ -1550,9 +1352,8 @@
       "brand": "Asus",
       "stock": 20,
       "hasDiscount": false,
-      "image": "/productsImage/asustufgaming.webp",
-      "desc": "Asus TUF Gaming لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Asus TUF Gaming",
+      "image": "/productsImage/asustufgaming.png",
+      "desc": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming FX607VJ CORE 5 210H 16GB RTX 3050",
       "variants": [
         {
           "storage": "512GB",
@@ -1561,10 +1362,6 @@
             {
               "name": "مشکی",
               "hex": "#111827"
-            },
-            {
-              "name": "سفید",
-              "hex": "#FFFFFF"
             }
           ]
         },
@@ -1593,8 +1390,7 @@
       "stock": 18,
       "hasDiscount": false,
       "image": "/productsImage/asuszenbook.webp",
-      "desc": "Asus Zenbook لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Asus Zenbook",
+      "desc": "لپ تاپ ایسوس 14 اینچی مدل Zenbook 14 UX3405CA Ultra 9 285H 32GB",
       "variants": [
         {
           "storage": "512GB",
@@ -1637,8 +1433,7 @@
       "discount": 15,
       "discountExpiresAt": "2026-10-27T23:59:59",
       "image": "/productsImage/vivobook15.webp",
-      "desc": "Asus Vivobook لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Asus Vivobook",
+      "desc": "لپ تاپ ایسوس 15.6 اینچی مدل Vivobook 15 X1504VA i7 1355U 16GB",
       "variants": [
         {
           "storage": "512GB",
@@ -1679,8 +1474,7 @@
       "stock": 5,
       "hasDiscount": false,
       "image": "/productsImage/lenovolegion.webp",
-      "desc": "Lenovo Legion لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Lenovo Legion",
+      "desc": "لپ تاپ لنوو 15.1 اینچی مدل Legion 5 i9 14900HX 16GB RTX 5070",
       "variants": [
         {
           "storage": "512GB",
@@ -1721,17 +1515,12 @@
       "stock": 20,
       "hasDiscount": false,
       "image": "/productsImage/lenovoloq.webp",
-      "desc": "Lenovo LOQ لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Lenovo LOQ",
+      "desc": "لپ تاپ لنوو 15.6 اینچی مدل LOQ 15IRX9 i7 13650HX 16GB RTX3050",
       "variants": [
         {
           "storage": "512GB",
           "price": 118000000,
           "colors": [
-            {
-              "name": "مشکی",
-              "hex": "#111827"
-            },
             {
               "name": "سفید",
               "hex": "#FFFFFF"
@@ -1765,8 +1554,7 @@
       "discount": 15,
       "discountExpiresAt": "2026-10-25T23:59:59",
       "image": "/productsImage/ideapadslim3.webp",
-      "desc": "Lenovo ThinkPad لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Lenovo ThinkPad",
+      "desc": "لپ تاپ لنوو 15.3 اینچی مدل IdeaPad Slim 3 i5 13420H 16GB",
       "variants": [
         {
           "storage": "512GB",
@@ -1807,8 +1595,7 @@
       "stock": 15,
       "hasDiscount": false,
       "image": "/productsImage/lenovoideapad.webp",
-      "desc": "Lenovo IdeaPad لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Lenovo IdeaPad",
+      "desc": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 1 15IJL7 Celeron N4500 8GB",
       "variants": [
         {
           "storage": "512GB",
@@ -1842,15 +1629,14 @@
     },
     {
       "id": "34",
-      "name": "Asus ProArt",
+      "name": "Asus Vivobook 16",
       "category": "laptop",
-      "slug": "asus-proart",
+      "slug": "asus-vivobook-16",
       "brand": "Asus",
       "stock": 20,
       "hasDiscount": false,
-      "image": "/productsImage/asusproart.webp",
-      "desc": "Asus ProArt لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل Asus ProArt",
+      "image": "/productsImage/asusvivobook16.webp",
+      "desc": "لپ تاپ ایسوس 16 اینچی مدل Vivobook F1605VA i7 13620H 16GB",
       "variants": [
         {
           "storage": "512GB",
@@ -1893,8 +1679,7 @@
       "discount": 25,
       "discountExpiresAt": "2026-10-24T23:59:59",
       "image": "/productsImage/macairm4.webp",
-      "desc": "MacBook Air M4 لپ‌تاپی قدرتمند",
-      "longDesc": "توضیحات کامل MacBook Air M4",
+      "desc": "لپ تاپ اپل 15.3 اینچی مدل MacBook Air MW1J3 2025 LLA M4 16GB",
       "variants": [
         {
           "storage": "512GB",
@@ -1930,27 +1715,25 @@
       "id": "36",
       "name": "Sony WH-1000XM6",
       "category": "headphone",
-      "slug": "36",
-      "brand": "Generic",
+      "slug": "Sony WH-1000XM6",
+      "brand": "Sony",
       "stock": 5,
       "hasDiscount": false,
       "price": 190000000,
-      "image": "/productsImage/36.webp",
-      "desc": "Sony WH-1000XM6",
-      "longDesc": "توضیحات Sony WH-1000XM6"
+      "image": "/productsImage/sonywh.webp",
+      "desc": "هدفون بی سیم سونی مدل WH-1000XM6"
     },
     {
       "id": "37",
       "name": "JBL Tune 770",
       "category": "headphone",
-      "slug": "37",
-      "brand": "Generic",
+      "slug": "JBL Tune 770",
+      "brand": "Jbl",
       "stock": 33,
       "hasDiscount": false,
       "price": 190000000,
       "image": "/productsImage/37.webp",
-      "desc": "JBL Tune 770",
-      "longDesc": "توضیحات JBL Tune 770"
+      "desc": "هدفون بی سیم جی بی ال مدل Tune 770NC"
     },
     {
       "id": "38",
@@ -1964,127 +1747,117 @@
       "discountExpiresAt": "2026-10-28T23:59:59",
       "price": 25000000,
       "image": "/productsImage/airpodpro2.webp",
-      "desc": "AirPods Pro 2",
-      "longDesc": "توضیحات AirPods Pro 2"
+      "desc": "هندزفری بلوتوثی اپل مدل AirPods Pro 2nd Generation"
     },
     {
       "id": "39",
       "name": "Galaxy Buds 3",
       "category": "headphone",
-      "slug": "39",
-      "brand": "Generic",
+      "slug": "Galaxy Buds 3",
+      "brand": "Samsung",
       "stock": 39,
       "hasDiscount": false,
       "price": 3000000,
-      "image": "/productsImage/39.webp",
-      "desc": "Galaxy Buds 3",
-      "longDesc": "توضیحات Galaxy Buds 3"
+      "image": "/productsImage/galaxybuds3..webp",
+      "desc": "هندزفری بلوتوثی سامسونگ مدل Galaxy Buds 3"
     },
     {
       "id": "40",
-      "name": "Xiaomi Buds 5",
+      "name": "Xiaomi Redmi Buds 5",
       "category": "headphone",
-      "slug": "40",
-      "brand": "Generic",
+      "slug": "Xiaomi Redmi Buds 5",
+      "brand": "Xiaomi",
       "stock": 20,
       "hasDiscount": false,
       "price": 8000000,
-      "image": "/productsImage/40.webp",
-      "desc": "Xiaomi Buds 5",
-      "longDesc": "توضیحات Xiaomi Buds 5"
+      "image": "/productsImage/xiaomiredmibuds5.webp",
+      "desc": "هندزفری بلوتوثی شیائومی مدل Redmi Buds 5"
     },
     {
       "id": "41",
       "name": "JBL Live",
       "category": "headphone",
-      "slug": "41",
-      "brand": "Generic",
+      "slug": "JBL Live",
+      "brand": "Jbl",
       "stock": 50,
       "hasDiscount": false,
       "price": 190000000,
-      "image": "/productsImage/41.webp",
-      "desc": "JBL Live",
-      "longDesc": "توضیحات JBL Live"
+      "image": "/productsImage/jbllive.webp",
+      "desc": "هدست بلوتوثی JBL مدل 670NC Live"
     },
     {
       "id": "42",
       "name": "Sony WF",
       "category": "headphone",
-      "slug": "42",
-      "brand": "Generic",
+      "slug": "Sony WF",
+      "brand": "Sony",
       "stock": 37,
       "hasDiscount": false,
       "price": 190000000,
-      "image": "/productsImage/42.webp",
-      "desc": "Sony WF",
-      "longDesc": "توضیحات Sony WF"
+      "image": "/productsImage/sonywf.webp",
+      "desc": "هندزفری بلوتوثی سونی مدل WF-C510"
     },
     {
       "id": "43",
       "name": "AirPods 4",
       "category": "headphone",
-      "slug": "43",
-      "brand": "Generic",
+      "slug": "AirPods 4",
+      "brand": "Apple",
       "stock": 5,
       "hasDiscount": false,
       "price": 40000000,
-      "image": "/productsImage/43.webp",
-      "desc": "AirPods 4",
-      "longDesc": "توضیحات AirPods 4"
+      "image": "/productsImage/airpods4.webp",
+      "desc": "هندزفری بی سیم اپل مدل AirPods 4"
     },
     {
       "id": "44",
       "name": "PS5 Slim",
       "category": "console",
-      "slug": "44",
-      "brand": "Generic",
+      "slug": "PS5 Slim",
+      "brand": "Sony",
       "stock": 29,
       "hasDiscount": true,
       "discount": 18,
       "discountExpiresAt": "2026-10-29T23:59:59",
       "price": 120000000,
       "image": "/productsImage/ps5slim.webp",
-      "desc": "PS5 Slim",
-      "longDesc": "توضیحات PS5 Slim"
+      "desc": "پلی استیشن 5 اسلیم دیجیتال اروپا CFI-2116"
     },
     {
       "id": "45",
       "name": "PS5 Pro",
       "category": "console",
-      "slug": "45",
-      "brand": "Generic",
+      "slug": "PS5 Pro",
+      "brand": "Sony",
       "stock": 28,
       "hasDiscount": false,
       "price": 190000000,
-      "image": "/productsImage/45.webp",
-      "desc": "PS5 Pro",
-      "longDesc": "توضیحات PS5 Pro"
+      "image": "/productsImage/ps5pro.webp",
+      "desc": "پلی استیشن 5 پرو دیجیتال اروپا سفید 2 ترابایت"
     },
     {
       "id": "46",
       "name": "Xbox Series X",
       "category": "console",
-      "slug": "46",
-      "brand": "Generic",
+      "slug": "Xbox Series X",
+      "brand": "Xbox",
       "stock": 15,
       "hasDiscount": false,
       "price": 190000000,
-      "image": "/productsImage/46.webp",
-      "desc": "Xbox Series X",
-      "longDesc": "توضیحات Xbox Series X"
+      "image": "/productsImage/xboxxseries.webp",
+      "desc": "کنسول بازی مایکروسافت مدل XBOX SERIES X ظرفیت 1 ترابایت"
     },
     {
       "id": "47",
-      "name": "Nintendo Switch 2",
+      "name": "Nintendo Switch Lite",
       "category": "console",
-      "slug": "47",
-      "brand": "Generic",
+      "slug": "Nintendo Switch Lite",
+      "brand": "Nintendo",
       "stock": 12,
       "hasDiscount": false,
       "price": 190000000,
-      "image": "/productsImage/47.webp",
-      "desc": "Nintendo Switch 2",
-      "longDesc": "توضیحات Nintendo Switch 2"
+      "image": "/productsImage/nintendoswitchlite.webp",
+      "desc": " کنسول بازی نینتندو مدل Lite"
     },
     {
       "id": "48",
@@ -2098,8 +1871,7 @@
       "discountExpiresAt": "2026-10-26T23:59:59",
       "price": 3000000,
       "image": "/productsImage/samsungcharger45w.webp",
-      "desc": "شارژر 45 وات",
-      "longDesc": "توضیحات شارژر 45 وات"
+      "desc": "شارژر دیواری سامسونگ 45 وات مدل EP-TA845 سه شاخه اروپا به همراه کابل دو سر تایپ سی - ویتنام"
     },
     {
       "id": "49",
@@ -2110,22 +1882,20 @@
       "stock": 21,
       "hasDiscount": false,
       "price": 2000000,
-      "image": "/productsImage/49.webp",
-      "desc": "شارژر 25 وات",
-      "longDesc": "توضیحات شارژر 25 وات"
+      "image": "/productsImage/samsungcharger25w.webp",
+      "desc": "شارژر دیواری سامسونگ 25 وات مدل EP-TA800 سه شاخه اروپا به همراه کابل دو سر تایپ سی"
     },
     {
       "id": "50",
-      "name": "Xiaomi handsfree",
+      "name": "Apple Charging Adaptor",
       "category": "accessory",
-      "slug": "50",
-      "brand": "Generic",
+      "slug": "Apple Charging Adaptor",
+      "brand": "Apple",
       "stock": 44,
       "hasDiscount": false,
       "price": 1000000,
-      "image": "/productsImage/50.webp",
-      "desc": "هندزفری سیمی",
-      "longDesc": "توضیحات هندزفری سیمی"
+      "image": "/productsImage/applechargingadaptor..webp",
+      "desc": "شارژر دیواری اپل 20 وات مدل 3 پین B/A - اورجینال"
     }
   ],
   "cart": [],
