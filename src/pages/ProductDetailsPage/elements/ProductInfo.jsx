@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo } from "react";
 import { FaStar, FaShoppingCart } from "react-icons/fa";
 import { FiTruck, FiShield } from "react-icons/fi";
 
-import useCountdown from "@/hooks/useCountdown";
+import useCountdown from "@/Hooks/useCountdown";
 
 const ProductInfo = ({ product }) => {
   const variants = product.variants || [];
