@@ -90,6 +90,7 @@ const applyQuery = (items, searchParams) => {
   }
 
   // ?field=value
+  // ?field:contains=value
   for (const [key, value] of searchParams.entries()) {
     if (
       key === "q" ||
@@ -102,6 +103,25 @@ const applyQuery = (items, searchParams) => {
       continue;
     }
 
+    // :contains
+    if (key.endsWith(":contains")) {
+      const field = key.replace(":contains", "");
+      const searchValue = value.toLowerCase();
+
+      result = result.filter((item) => {
+        const itemValue = item[field];
+
+        if (itemValue === undefined || itemValue === null) {
+          return false;
+        }
+
+        return String(itemValue).toLowerCase().includes(searchValue);
+      });
+
+      continue;
+    }
+
+    // exact match
     result = result.filter((item) => {
       const itemValue = item[key];
 
@@ -112,7 +132,6 @@ const applyQuery = (items, searchParams) => {
       return String(itemValue) === value;
     });
   }
-
   // Sorting
   const sort = searchParams.get("_sort");
 
