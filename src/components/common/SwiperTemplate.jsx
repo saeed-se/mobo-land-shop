@@ -1,19 +1,29 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 
 import ProductBox from "@/pages/HomePage/elements/ProductBox";
+
 import DiscountBanner from "@/pages/HomePage/elements/DiscountBanner";
+
 import PrevBtn from "@/components/common/PrevBtn";
+
 import NextBtn from "@/components/common/NextBtn";
+
 import useSwiper from "@/Hooks/useSwiper";
 
 const SwiperTemplate = ({ products, type, hasDiscount = null }) => {
   const { swiper, setSwiper, isBeginning, isEnd, updateButtons } =
     useSwiper(products);
 
+  const storageKey = `swiper-position-${hasDiscount ? "discount" : type}`;
+
+  const savedIndex = Number(sessionStorage.getItem(storageKey)) || 0;
+
   return (
     <div className="relative max-w-fit bg-secondary h-fit mt-10 py-3 rounded-2xl">
       <Swiper
+        initialSlide={savedIndex}
         breakpoints={{
           0: {
             slidesPerView: 1,
@@ -40,13 +50,17 @@ const SwiperTemplate = ({ products, type, hasDiscount = null }) => {
           setSwiper(swiper);
           updateButtons(swiper);
         }}
-        onSlideChange={updateButtons}
+        onSlideChange={(swiper) => {
+          updateButtons(swiper);
+          sessionStorage.setItem(storageKey, swiper.activeIndex);
+        }}
       >
         {hasDiscount && (
           <SwiperSlide>
             <DiscountBanner />
           </SwiperSlide>
         )}
+
         {products
           .filter((product) =>
             hasDiscount
@@ -59,6 +73,7 @@ const SwiperTemplate = ({ products, type, hasDiscount = null }) => {
               <ProductBox {...product} />
             </SwiperSlide>
           ))}
+
         <PrevBtn isBeginning={isBeginning} />
         <NextBtn isEnd={isEnd} />
       </Swiper>

@@ -1,18 +1,27 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 
 import BlogBox from "./BlogBox";
+
 import PrevBtn from "@/components/common/PrevBtn";
+
 import NextBtn from "@/components/common/NextBtn";
+
 import useSwiper from "@/Hooks/useSwiper";
 
 const BlogSlider = ({ blogs }) => {
   const { swiper, setSwiper, isBeginning, isEnd, updateButtons } =
     useSwiper(blogs);
 
+  const storageKey = "blog-slider-position";
+
+  const savedIndex = Number(sessionStorage.getItem(storageKey)) || 0;
+
   return (
     <div className="relative max-w-fit border h-fit mt-10 py-3 rounded-2xl">
       <Swiper
+        initialSlide={savedIndex}
         breakpoints={{
           0: {
             slidesPerView: 1,
@@ -39,13 +48,17 @@ const BlogSlider = ({ blogs }) => {
           setSwiper(swiper);
           updateButtons(swiper);
         }}
-        onSlideChange={updateButtons}
+        onSlideChange={(swiper) => {
+          updateButtons(swiper);
+          sessionStorage.setItem(storageKey, swiper.activeIndex);
+        }}
       >
         {blogs.slice(0, 8).map((blog) => (
           <SwiperSlide key={blog.id}>
             <BlogBox {...blog} />
           </SwiperSlide>
         ))}
+
         <PrevBtn isBeginning={isBeginning} />
         <NextBtn isEnd={isEnd} />
       </Swiper>
