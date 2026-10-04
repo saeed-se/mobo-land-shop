@@ -23,7 +23,9 @@ const ProductInfo = ({ product, comments }) => {
           comments={comments}
         />
 
-        {product.hasDiscount && <DiscountTimer timeLeft={timeLeft} />}
+        {product.hasDiscount && (
+          <DiscountTimer timeLeft={timeLeft} className="md:hidden" />
+        )}
         {/* Product Image */}
         <div className="order-1 lg:order-2 flex items-center justify-center">
           <div className="flex max-xs:h-60 h-80  md:h-97 w-full items-center justify-center rounded-xl border border-primary">
