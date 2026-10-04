@@ -19,7 +19,7 @@ const ProductInfo = ({ product }) => {
       <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[1fr_0.9fr_1fr]">
         <ProductOptions product={product} onPriceChange={setPrice} />
 
-        <DiscountTimer timeLeft={timeLeft} />
+        {product.hasDiscount && <DiscountTimer timeLeft={timeLeft} />}
         {/* Product Image */}
         <div className="order-1 lg:order-2 flex items-center justify-center">
           <div className="flex max-xs:h-60 h-80  md:h-97 w-full items-center justify-center rounded-xl border border-primary">
