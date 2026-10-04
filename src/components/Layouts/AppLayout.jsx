@@ -17,6 +17,7 @@ const AppLayout = () => {
   const { pathname } = useLocation();
   const [isOpenSearch, setIsOpenSearch] = useState(false);
   const searchBar = useRef(null);
+  const isProductDetails = pathname.startsWith("/product/");
 
   return (
     <>
@@ -49,7 +50,9 @@ const AppLayout = () => {
       <Footer />
 
       {/* Mobile Bottom Navigation */}
-      <nav className="fixed bottom-0 left-0 right-0 h-21 shadow-lg bg-white z-47 md:hidden">
+      <nav
+        className={`fixed bottom-0 left-0 right-0 h-21 shadow-lg bg-white z-47 md:hidden ${isProductDetails ? "max-xs:hidden" : ""}`}
+      >
         <Container>
           <MobileBottomNav />
         </Container>
