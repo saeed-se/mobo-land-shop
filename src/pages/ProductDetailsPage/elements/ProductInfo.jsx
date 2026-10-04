@@ -5,7 +5,7 @@ import ProductPurchase from "./ProductPurchase";
 import useCountdown from "@/Hooks/useCountdown";
 import DiscountTimer from "./DiscountTimer";
 
-const ProductInfo = ({ product }) => {
+const ProductInfo = ({ product, comments }) => {
   const [price, setPrice] = useState(
     product.variants?.[0]?.price ?? product.price,
   );
@@ -17,7 +17,11 @@ const ProductInfo = ({ product }) => {
   return (
     <section className="mt-6 rounded-2xl bg-white p-5 shadow-sm">
       <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[1fr_0.9fr_1fr]">
-        <ProductOptions product={product} onPriceChange={setPrice} />
+        <ProductOptions
+          product={product}
+          onPriceChange={setPrice}
+          comments={comments}
+        />
 
         {product.hasDiscount && <DiscountTimer timeLeft={timeLeft} />}
         {/* Product Image */}

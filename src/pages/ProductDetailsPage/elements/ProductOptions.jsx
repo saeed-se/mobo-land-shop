@@ -1,52 +1,21 @@
-import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 
-const ProductOptions = ({ product, onPriceChange }) => {
-  const variants = product.variants || [];
+import useProductRating from "@/Hooks/useProductRating";
+import useProductVariants from "@/Hooks/useProductVariants";
 
-  const hasStorage = variants.some((variant) => variant.storage);
+const ProductOptions = ({ product, onPriceChange, comments = [] }) => {
+  const { rating, reviewCount } = useProductRating(comments);
 
-  const hasColors = variants.some(
-    (variant) => variant.colors && variant.colors.length > 0,
-  );
-
-  const storages = [
-    ...new Set(
-      variants
-        .filter((variant) => variant.storage)
-        .map((variant) => variant.storage),
-    ),
-  ];
-
-  const [selectedStorage, setSelectedStorage] = useState(storages[0] || null);
-
-  const selectedVariant = selectedStorage
-    ? variants.find((variant) => variant.storage === selectedStorage) ||
-      variants[0]
-    : variants[0];
-
-  const colors = selectedVariant?.colors || [];
-
-  const [selectedColor, setSelectedColor] = useState(colors[0]?.name || null);
-
-  useEffect(() => {
-    onPriceChange(selectedVariant?.price ?? product.price);
-  }, [selectedVariant, product.price, onPriceChange]);
-
-  useEffect(() => {
-    if (!colors.length) {
-      setSelectedColor(null);
-      return;
-    }
-
-    const colorStillExists = colors.some(
-      (color) => color.name === selectedColor,
-    );
-
-    if (!colorStillExists) {
-      setSelectedColor(colors[0].name);
-    }
-  }, [selectedVariant, colors, selectedColor]);
+  const {
+    hasStorage,
+    hasColors,
+    storages,
+    selectedStorage,
+    setSelectedStorage,
+    colors,
+    selectedColor,
+    setSelectedColor,
+  } = useProductVariants(product, onPriceChange);
 
   return (
     <div className="order-2 lg:order-1 flex flex-col">
@@ -57,11 +26,11 @@ const ProductOptions = ({ product, onPriceChange }) => {
       <div className="mt-3 flex items-center gap-2">
         <div className="flex gap-1 text-yellow-500">
           <FaStar size={15} />
-          <span className="font-dana-Medium text-sm">4.5</span>
+          <span className="font-dana-Medium text-sm">{rating.toFixed(1)}</span>
         </div>
 
         <span className="font-dana-Medium text-sm text-secondary-text">
-          (12 نظر)
+          ({reviewCount} نظر)
         </span>
       </div>
 
