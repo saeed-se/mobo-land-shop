@@ -10,6 +10,8 @@ import Cover from "@/components/Cover/Cover";
 import MobileBottomNav from "@/components/Header/elements/MobileBottomNav";
 import MobileSearch from "@/components/Header/elements/MobileSearch";
 import { ProductsContext } from "@/contexts/ProductsProvider";
+import PurchaseBox from "@/pages/ProductDetailsPage/elements/PurchaseBox";
+import { ProductPurchaseContext } from "@/contexts/ProductPurchaseProvider";
 
 const AppLayout = () => {
   const [isCoverShown, setIsCoverShown] = useState(false);
@@ -18,6 +20,9 @@ const AppLayout = () => {
   const [isOpenSearch, setIsOpenSearch] = useState(false);
   const searchBar = useRef(null);
   const isProductDetails = pathname.startsWith("/product/");
+  const { price, hasActiveDiscount, finalPrice, discountAmount } = useContext(
+    ProductPurchaseContext,
+  );
 
   return (
     <>
@@ -31,6 +36,7 @@ const AppLayout = () => {
       <MobileSearch
         isOpenSearch={isOpenSearch}
         setIsOpenSearch={setIsOpenSearch}
+        isProductDetails={isProductDetails}
         ref={searchBar}
       />
 
@@ -49,14 +55,23 @@ const AppLayout = () => {
 
       <Footer />
 
-      {/* Mobile Bottom Navigation */}
-      <nav
-        className={`fixed bottom-0 left-0 right-0 h-21 shadow-lg bg-white z-47 md:hidden ${isProductDetails ? "max-xs:hidden" : ""}`}
-      >
-        <Container>
-          <MobileBottomNav />
-        </Container>
-      </nav>
+      {isProductDetails ? (
+        <PurchaseBox
+          className="md:hidden p-5 fixed bottom-0 left-0 right-0 z-40 bg-bg"
+          price={price}
+          hasActiveDiscount={hasActiveDiscount}
+          finalPrice={finalPrice}
+          discountAmount={discountAmount}
+        />
+      ) : (
+        <nav
+          className={`fixed bottom-0 left-0 right-0 h-21 shadow-lg bg-white z-47 md:hidden`}
+        >
+          <Container>
+            <MobileBottomNav />
+          </Container>
+        </nav>
+      )}
 
       {isCoverShown && <Cover />}
     </>

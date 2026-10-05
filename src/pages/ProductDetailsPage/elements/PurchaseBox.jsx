@@ -34,13 +34,13 @@ const PurchaseBox = ({
         </span>
       </div>
 
-      <button
+      <div
         type="button"
         className="mt-5 flex h-12 w-full cursor-pointer items-center justify-center gap-3 rounded-xl bg-primary font-dana-DemiBold text-white transition hover:opacity-90"
       >
         <FaShoppingCart size={18} />
         <span>افزودن به سبد خرید</span>
-      </button>
+      </div>
     </div>
   );
 };

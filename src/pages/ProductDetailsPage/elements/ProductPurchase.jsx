@@ -1,18 +1,15 @@
+import { useContext } from "react";
+
 import { FiTruck, FiShield } from "react-icons/fi";
 
-import calculateDiscount from "@/utils/discount";
+import { ProductPurchaseContext } from "@/contexts/ProductPurchaseProvider";
 import PurchaseBox from "./PurchaseBox";
 import DiscountTimer from "./DiscountTimer";
 
-const ProductPurchase = ({ product, price, timeLeft }) => {
-  const hasActiveDiscount =
-    product.hasDiscount && product.discount > 0 && timeLeft;
-
-  const finalPrice = hasActiveDiscount
-    ? calculateDiscount(price, product.discount)
-    : price;
-
-  const discountAmount = hasActiveDiscount ? price - finalPrice : 0;
+const ProductPurchase = ({ timeLeft }) => {
+  const { price, hasActiveDiscount, finalPrice, discountAmount } = useContext(
+    ProductPurchaseContext,
+  );
 
   return (
     <div className="order-3">
@@ -57,13 +54,6 @@ const ProductPurchase = ({ product, price, timeLeft }) => {
           discountAmount={discountAmount}
         />
       </div>
-      <PurchaseBox
-        className="md:hidden p-5 fixed bottom-0 left-0 right-0 z-50 bg-bg"
-        price={price}
-        hasActiveDiscount={hasActiveDiscount}
-        finalPrice={finalPrice}
-        discountAmount={discountAmount}
-      />
     </div>
   );
 };

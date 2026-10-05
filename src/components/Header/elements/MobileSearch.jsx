@@ -8,7 +8,12 @@ import useProductsSearch from "@/Hooks/useProductsSearch";
 import useClickOutside from "@/Hooks/useClickOutside";
 import SearchResult from "./SearchResult";
 
-const MobileSearch = ({ isOpenSearch, setIsOpenSearch, ref }) => {
+const MobileSearch = ({
+  isOpenSearch,
+  setIsOpenSearch,
+  isProductDetails,
+  ref,
+}) => {
   const [query, setQuery] = useState("");
   const { products, isLoading, error } = useProductsSearch(query);
   const mobileSearchRef = useClickOutside(() => {
@@ -38,7 +43,7 @@ const MobileSearch = ({ isOpenSearch, setIsOpenSearch, ref }) => {
   return (
     <div
       dir="ltr"
-      className={`md:hidden ${isOpenSearch ? "fixed top-14 left-0 right-0 bottom-17" : "hidden"} z-46 overflow-y-auto bg-white`}
+      className={`md:hidden ${isOpenSearch ? "fixed top-14 left-0 right-0 bottom-17" : "hidden"} ${isProductDetails ? "bottom-0!" : ""} z-46 overflow-y-auto bg-white`}
       ref={mobileSearchRef}
     >
       <div

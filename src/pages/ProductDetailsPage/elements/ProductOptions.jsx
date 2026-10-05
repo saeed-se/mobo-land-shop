@@ -1,9 +1,15 @@
+import { useContext } from "react";
+
 import { FaStar } from "react-icons/fa";
+
+import { ProductPurchaseContext } from "@/contexts/ProductPurchaseProvider";
 
 import useProductRating from "@/Hooks/useProductRating";
 import useProductVariants from "@/Hooks/useProductVariants";
 
-const ProductOptions = ({ product, onPriceChange, comments = [] }) => {
+const ProductOptions = ({ product, comments = [] }) => {
+  const { setPrice } = useContext(ProductPurchaseContext);
+
   const { rating, reviewCount } = useProductRating(comments);
 
   const {
@@ -15,7 +21,7 @@ const ProductOptions = ({ product, onPriceChange, comments = [] }) => {
     colors,
     selectedColor,
     setSelectedColor,
-  } = useProductVariants(product, onPriceChange);
+  } = useProductVariants(product, setPrice);
 
   return (
     <div className="order-2 lg:order-1 flex flex-col">
