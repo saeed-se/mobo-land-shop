@@ -1,4 +1,4 @@
-import { createContext, useMemo, useState } from "react";
+import { createContext, useState } from "react";
 
 import calculateDiscount from "@/utils/discount";
 
@@ -16,18 +16,15 @@ export const ProductPurchaseProvider = ({ children }) => {
 
   const discountAmount = hasActiveDiscount ? price - finalPrice : 0;
 
-  const value = useMemo(
-    () => ({
-      product,
-      setProduct,
-      price,
-      setPrice,
-      hasActiveDiscount,
-      finalPrice,
-      discountAmount,
-    }),
-    [product, price, hasActiveDiscount, finalPrice, discountAmount],
-  );
+  const value = {
+    product,
+    setProduct,
+    price,
+    setPrice,
+    hasActiveDiscount,
+    finalPrice,
+    discountAmount,
+  };
 
   return (
     <ProductPurchaseContext.Provider value={value}>

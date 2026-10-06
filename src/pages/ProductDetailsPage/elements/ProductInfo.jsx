@@ -4,6 +4,7 @@ import ProductOptions from "./ProductOptions";
 import ProductPurchase from "./ProductPurchase";
 import useCountdown from "@/Hooks/useCountdown";
 import DiscountTimer from "./DiscountTimer";
+import ProductReviews from "./ProductReviews";
 
 const ProductInfo = ({ product, comments }) => {
   const [price, setPrice] = useState(
@@ -15,29 +16,49 @@ const ProductInfo = ({ product, comments }) => {
   );
 
   return (
-    <section className="mt-6 rounded-2xl bg-white p-5 shadow-sm">
-      <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[1fr_0.9fr_1fr]">
-        <ProductOptions
-          product={product}
-          onPriceChange={setPrice}
-          comments={comments}
-        />
+    <section className="mt-6">
+      <div className="flex flex-col gap-5 lg:flex-row lg:items-start">
+        <div className="flex-1">
+          <div className="flex flex-col md:flex-col-reverse lg:flex-row bg-white p-5 border border-primary rounded-2xl">
+            <ProductOptions
+              product={product}
+              onPriceChange={setPrice}
+              comments={comments}
+            />
 
-        {product.hasDiscount && (
-          <DiscountTimer timeLeft={timeLeft} className="md:hidden" />
-        )}
-        {/* Product Image */}
-        <div className="order-1 lg:order-2 flex items-center justify-center">
-          <div className="flex max-xs:h-60 h-80  md:h-97 w-full items-center justify-center rounded-xl border border-primary">
-            <img
-              src={product.image}
-              alt={product.name}
-              className="h-full max-w-full object-contain md:p-6"
+            {product.hasDiscount && (
+              <DiscountTimer timeLeft={timeLeft} className="md:hidden" />
+            )}
+
+            <div className="order-1 flex items-center justify-center md:order-2">
+              <div className="flex max-xs:h-60 h-80 md:h-97 w-full items-center justify-center">
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="h-full max-w-full object-contain md:p-6"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="lg:hidden">
+            <ProductPurchase
+              product={product}
+              price={price}
+              timeLeft={timeLeft}
             />
           </div>
+
+          <ProductReviews comments={comments} />
         </div>
 
-        <ProductPurchase product={product} price={price} timeLeft={timeLeft} />
+        {/* Purchase - Sticky */}
+        <div className="hidden lg:block lg:sticky lg:top-35 lg:w-100 lg:self-start">
+          <ProductPurchase
+            product={product}
+            price={price}
+            timeLeft={timeLeft}
+          />
+        </div>
       </div>
     </section>
   );
