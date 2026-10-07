@@ -5,6 +5,7 @@ import ProductPurchase from "./ProductPurchase";
 import useCountdown from "@/Hooks/useCountdown";
 import DiscountTimer from "./DiscountTimer";
 import ProductReviews from "./ProductReviews";
+import SectionTitle from "@/components/common/SectionTitle";
 
 const ProductInfo = ({ product, comments }) => {
   const [price, setPrice] = useState(
@@ -47,6 +48,7 @@ const ProductInfo = ({ product, comments }) => {
               timeLeft={timeLeft}
             />
           </div>
+          <SectionTitle title={"نظرات کاربران"} />
 
           <ProductReviews comments={comments} />
         </div>

@@ -53,7 +53,10 @@ const AppLayout = () => {
         </div>
       </main>
 
-      <Footer isProductDetails={isProductDetails} />
+      <Footer
+        isProductDetails={isProductDetails}
+        hasActiveDiscount={hasActiveDiscount}
+      />
 
       {isProductDetails ? (
         <PurchaseBox

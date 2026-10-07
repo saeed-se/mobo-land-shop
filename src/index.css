@@ -89,3 +89,11 @@
     rgba(0, 0, 0, 0)
   );
 }
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

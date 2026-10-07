@@ -7,10 +7,10 @@ import FooterAccordion from "./elements/FooterAccordion";
 import FooterMiddleSec from "./elements/FooterMiddleSec";
 import FooterCopywrite from "./elements/FooterCopywrite";
 
-const Footer = ({ isProductDetails }) => {
+const Footer = ({ isProductDetails, hasActiveDiscount }) => {
   return (
     <footer
-      className={`mt-8 ${isProductDetails ? "pb-40" : "pb-28"} md:pb-0 md:mt-15 py-8 bg-primary text-white`}
+      className={`mt-8 ${isProductDetails ? "pb-35" : "pb-28"} ${hasActiveDiscount && isProductDetails ? "pb-50!" : "pb-28"} md:pb-0! md:mt-15 py-8 bg-primary text-white`}
     >
       <Container>
         <div className="flex flex-wrap md:flex-nowrap justify-between border-b border-white/50 pb-8 gap-5 md:gap-0 md:*:w-full xs:**:space-y-2.5 **:[&>Li]:*:hover:text-success **:[&>Li]:transition-all **:[&>Li]:*:duration-200 **:[&>Li]:*:ease-in max-xs:flex-col">
