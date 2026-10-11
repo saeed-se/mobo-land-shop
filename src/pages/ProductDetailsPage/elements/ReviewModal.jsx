@@ -17,7 +17,7 @@ const ratingMeta = {
   5: { label: "عالی", color: "text-success" },
 };
 
-const ReviewModal = ({ isOpen, onClose, onSubmit, productName }) => {
+const ReviewModal = ({ isOpen, onClose, onSubmit, product }) => {
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
   const [name, setName] = useState("");
@@ -27,8 +27,6 @@ const ReviewModal = ({ isOpen, onClose, onSubmit, productName }) => {
   const reviewModalRef = useClickOutside(() => {
     onClose();
   });
-
-  const nameInputRef = useRef(null);
 
   // Reset form when opening and focus the first field
   useEffect(() => {
@@ -104,10 +102,7 @@ const ReviewModal = ({ isOpen, onClose, onSubmit, productName }) => {
     <div className="animate-modal-overlay fixed inset-0 z-50 flex items-end justify-center bg-primary-text/50 p-0 backdrop-blur-sm sm:items-center sm:p-4">
       <div
         ref={reviewModalRef}
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="add-review-title"
-        className="animate-modal-content flex h-dvh w-full flex-col overflow-hidden bg-white shadow-2xl sm:max-w-lg sm:rounded-3xl"
+        className="animate-modal-content flex max-xs:h-dvh w-full flex-col overflow-hidden bg-white shadow-2xl sm:max-w-lg sm:rounded-3xl"
       >
         {/* Colored header */}
         <div className="relative shrink-0 overflow-hidden bg-linear-to-br from-primary to-secondary px-6 py-6 text-white">
@@ -138,8 +133,8 @@ const ReviewModal = ({ isOpen, onClose, onSubmit, productName }) => {
               </h2>
 
               <p className="mt-1 font-dana-Medium text-xs text-white/85">
-                {productName
-                  ? `تجربه‌ات از «${productName}» رو با بقیه به اشتراک بگذار`
+                {product.name
+                  ? `تجربه‌ات از «${product.name}» رو با بقیه به اشتراک بگذار`
                   : "تجربه‌ات از این محصول رو با بقیه به اشتراک بگذار"}
               </p>
             </div>
@@ -152,6 +147,27 @@ const ReviewModal = ({ isOpen, onClose, onSubmit, productName }) => {
           noValidate
           className="flex flex-1 flex-col gap-5 overflow-y-auto p-6 max-xs:p-5"
         >
+          {/* Product card */}
+          <div className="flex items-center gap-4 rounded-2xl border border-gray-100 p-3">
+            <div className="aspect-square w-14 shrink-0 overflow-hidden rounded-xl bg-bg lg:w-[3.8rem]">
+              <img
+                src={product.image}
+                alt={product.name}
+                loading="lazy"
+                width={66}
+                height={66}
+                className="size-full object-contain"
+              />
+            </div>
+
+            <p className="line-clamp-2 max-h-15 flex-1 font-dana-Medium text-sm leading-7.5 text-primary-text">
+              {product.desc}
+            </p>
+          </div>
+
+          <div className="text-center">
+            <p class="text-sm font-dana-DemiBold">به این کالا امتیاز دهید :)</p>
+          </div>
           {/* Rating */}
           <div className="rounded-2xl bg-primary/5 p-4">
             <p className="font-dana-DemiBold text-sm text-primary-text">
@@ -183,9 +199,9 @@ const ReviewModal = ({ isOpen, onClose, onSubmit, productName }) => {
                     }`}
                   >
                     {value <= activeRating ? (
-                      <FaStar size={28} />
+                      <FaStar size={25} />
                     ) : (
-                      <FaRegStar size={28} />
+                      <FaRegStar size={25} />
                     )}
                   </button>
                 ))}
@@ -207,30 +223,6 @@ const ReviewModal = ({ isOpen, onClose, onSubmit, productName }) => {
                 {errors.rating}
               </p>
             )}
-          </div>
-
-          {/* Name */}
-          <div className="flex flex-col gap-2">
-            <label
-              htmlFor="review-name"
-              className="font-dana-DemiBold text-sm text-primary-text"
-            >
-              نام شما
-              <span className="mr-1 font-dana-Medium text-xs text-secondary-text">
-                (اختیاری)
-              </span>
-            </label>
-
-            <input
-              ref={nameInputRef}
-              id="review-name"
-              type="text"
-              value={name}
-              maxLength={40}
-              onChange={(e) => setName(e.target.value)}
-              placeholder="مثلاً: علی رضایی"
-              className="w-full rounded-xl border border-transparent bg-input px-4 py-3 font-dana-Medium text-sm text-primary-text outline-none transition placeholder:text-secondary-text focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10"
-            />
           </div>
 
           {/* Review text */}

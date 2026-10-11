@@ -6,7 +6,7 @@ import { FaPlus } from "react-icons/fa6";
 import useProductRating from "@/Hooks/useProductRating";
 import ReviewModal from "./ReviewModal";
 
-const ProductReviews = ({ comments = [], productName }) => {
+const ProductReviews = ({ comments = [], product }) => {
   const [sortBy, setSortBy] = useState("newest");
   const [isSorting, setIsSorting] = useState(false);
   const [hasSorted, setHasSorted] = useState(false);
@@ -186,7 +186,7 @@ const ProductReviews = ({ comments = [], productName }) => {
         onSubmit={async (review) => {
           console.log(review);
         }}
-        productName={productName}
+        product={product}
       />
     </section>
   );

@@ -50,7 +50,7 @@ const ProductInfo = ({ product, comments }) => {
           </div>
           <SectionTitle title={"نظرات کاربران"} />
 
-          <ProductReviews productName={product.name} comments={comments} />
+          <ProductReviews product={product} comments={comments} />
         </div>
 
         {/* Purchase - Sticky */}
