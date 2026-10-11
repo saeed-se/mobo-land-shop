@@ -12,8 +12,12 @@ const delay = (ms) => {
   });
 };
 
+const normalize = (value) => {
+  return value.trim().toLowerCase().replace(/\s+/g, "");
+};
+
 export const searchProducts = async (query, signal) => {
-  const normalizedQuery = query.trim().toLowerCase();
+  const normalizedQuery = normalize(query);
 
   if (!normalizedQuery) {
     return [];
@@ -28,20 +32,17 @@ export const searchProducts = async (query, signal) => {
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
       const response = await api.get(RESOURCE, {
-        params: {
-          "name:contains": normalizedQuery,
-        },
         signal,
       });
 
-      const products = response.data;
+      const products = response.data.filter((product) =>
+        normalize(product.name).includes(normalizedQuery),
+      );
 
       searchCache.set(normalizedQuery, products);
 
       return products;
     } catch (error) {
-      console.log(`SEARCH ERROR ${attempt}:`, error);
-
       if (signal?.aborted) {
         throw error;
       }
@@ -53,8 +54,6 @@ export const searchProducts = async (query, signal) => {
       }
     }
   }
-
-  console.log("FINAL ERROR:", lastError);
 
   throw lastError;
 };

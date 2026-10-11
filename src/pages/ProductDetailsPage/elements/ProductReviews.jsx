@@ -4,11 +4,13 @@ import { FaRegStar, FaStar } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa6";
 
 import useProductRating from "@/Hooks/useProductRating";
+import ReviewModal from "./ReviewModal";
 
-const ProductReviews = ({ comments = [] }) => {
+const ProductReviews = ({ comments = [], productName }) => {
   const [sortBy, setSortBy] = useState("newest");
   const [isSorting, setIsSorting] = useState(false);
   const [hasSorted, setHasSorted] = useState(false);
+  const [isReviewModalOpen, setIsReviewModalOpen] = useState(false);
 
   const { rating, reviewCount } = useProductRating(comments);
 
@@ -87,6 +89,7 @@ const ProductReviews = ({ comments = [] }) => {
         <button
           type="button"
           className="flex w-fit cursor-pointer items-center gap-2 rounded-xl border border-primary px-5 py-2.5 font-dana-DemiBold text-sm text-primary transition hover:opacity-90 max-xs:text-xs"
+          onClick={() => setIsReviewModalOpen(true)}
         >
           <FaPlus />
           <span>افزودن نظر</span>
@@ -177,6 +180,14 @@ const ProductReviews = ({ comments = [] }) => {
           )}
         </div>
       )}
+      <ReviewModal
+        isOpen={isReviewModalOpen}
+        onClose={() => setIsReviewModalOpen(false)}
+        onSubmit={async (review) => {
+          console.log(review);
+        }}
+        productName={productName}
+      />
     </section>
   );
 };

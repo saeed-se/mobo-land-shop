@@ -9,7 +9,7 @@ const useProductsSearch = (query) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const normalizedQuery = query.trim();
+    const normalizedQuery = query.trim().toLowerCase();
 
     if (!normalizedQuery) {
       setProducts([]);
