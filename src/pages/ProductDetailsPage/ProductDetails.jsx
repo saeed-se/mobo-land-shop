@@ -25,13 +25,18 @@ const ProductDetails = () => {
     setPrice(product?.variants?.[0]?.price ?? product?.price ?? 0);
   }, [product, setProduct, setPrice]);
 
-  const comments = useProductComments(product.id);
-
+  const { comments, isLoading, isError, refetch, addComment } =
+    useProductComments(product.id);
   return (
     <div>
       <Container>
         <Breadcrumb product={product} />
-        <ProductInfo product={product} comments={comments} />
+        <ProductInfo
+          product={product}
+          comments={comments}
+          commentsStatus={{ isLoading, isError, onRetry: refetch }}
+          onAddComment={addComment}
+        />
       </Container>
     </div>
   );

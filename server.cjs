@@ -1,12 +1,21 @@
 const http = require("http");
 const fs = require("fs/promises");
+const fsSync = require("fs");
 const path = require("path");
+const os = require("os");
 const { URL } = require("url");
 
 const PORT = process.env.PORT || 3000;
 const HOST = "0.0.0.0";
 
-const DB_PATH = path.join(__dirname, "server-data", "db.json");
+const SEED_PATH = path.join(__dirname, "server-data", "db.json");
+const DB_PATH = process.env.DB_PATH || path.join(os.tmpdir(), "mobo-db.json");
+
+// Copy the initial database to a writable location if it doesn't exist
+if (!fsSync.existsSync(DB_PATH)) {
+  fsSync.mkdirSync(path.dirname(DB_PATH), { recursive: true });
+  fsSync.copyFileSync(SEED_PATH, DB_PATH);
+}
 
 const sendJSON = (res, statusCode, data) => {
   const body = JSON.stringify(data);
@@ -121,7 +130,7 @@ const applyQuery = (items, searchParams) => {
       continue;
     }
 
-    // exact match
+    // Exact match
     result = result.filter((item) => {
       const itemValue = item[key];
 
@@ -132,6 +141,7 @@ const applyQuery = (items, searchParams) => {
       return String(itemValue) === value;
     });
   }
+
   // Sorting
   const sort = searchParams.get("_sort");
 
@@ -185,7 +195,6 @@ const server = http.createServer(async (req, res) => {
 
   try {
     const url = new URL(req.url, `http://${req.headers.host}`);
-
     const pathname = url.pathname;
 
     // Health check
@@ -219,11 +228,8 @@ const server = http.createServer(async (req, res) => {
 
     const collection = db[resource];
 
-    // -------------------------
     // GET /products
     // GET /products/22
-    // -------------------------
-
     if (req.method === "GET") {
       if (id !== undefined) {
         const item = collection.find((item) => getId(item) === String(id));
@@ -243,10 +249,7 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
-    // -------------------------
     // POST /products
-    // -------------------------
-
     if (req.method === "POST") {
       const body = await readBody(req);
 
@@ -263,10 +266,7 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
-    // -------------------------
     // PUT /products/22
-    // -------------------------
-
     if (req.method === "PUT") {
       if (id === undefined) {
         sendError(res, 400, "ID is required");
@@ -295,10 +295,7 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
-    // -------------------------
     // PATCH /products/22
-    // -------------------------
-
     if (req.method === "PATCH") {
       if (id === undefined) {
         sendError(res, 400, "ID is required");
@@ -328,10 +325,7 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
-    // -------------------------
     // DELETE /products/22
-    // -------------------------
-
     if (req.method === "DELETE") {
       if (id === undefined) {
         sendError(res, 400, "ID is required");

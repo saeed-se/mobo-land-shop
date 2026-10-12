@@ -4,10 +4,10 @@ import ProductOptions from "./ProductOptions";
 import ProductPurchase from "./ProductPurchase";
 import useCountdown from "@/Hooks/useCountdown";
 import DiscountTimer from "./DiscountTimer";
-import ProductReviews from "./ProductReviews";
+import ProductReviews from "./reviews/ProductReviews";
 import SectionTitle from "@/components/common/SectionTitle";
 
-const ProductInfo = ({ product, comments }) => {
+const ProductInfo = ({ product, comments, commentsStatus, onAddComment }) => {
   const [price, setPrice] = useState(
     product.variants?.[0]?.price ?? product.price,
   );
@@ -50,7 +50,12 @@ const ProductInfo = ({ product, comments }) => {
           </div>
           <SectionTitle title={"نظرات کاربران"} />
 
-          <ProductReviews product={product} comments={comments} />
+          <ProductReviews
+            product={product}
+            comments={comments}
+            commentsStatus={commentsStatus}
+            onAddComment={onAddComment}
+          />
         </div>
 
         {/* Purchase - Sticky */}

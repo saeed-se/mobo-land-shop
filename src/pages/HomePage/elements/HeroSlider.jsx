@@ -14,7 +14,7 @@ import slider4 from "@/assets/slider-4.gif";
 
 const HeroSlider = () => {
   return (
-    <div className="relative h-45 md:h-80 mt-10 md:mt-15">
+    <div className="relative h-45 md:h-80 mt-5 md:mt-12">
       <Swiper
         slidesPerView={1}
         height={120}
