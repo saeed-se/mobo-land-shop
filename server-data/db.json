@@ -213,7 +213,7 @@
       "stock": 6,
       "hasDiscount": true,
       "discount": 15,
-      "discountExpiresAt": "2026-10-30T23:59:59",
+      "discountExpiresAt": "2026-11-30T23:59:59",
       "image": "/productsImage/iphone16.png",
       "desc": "گوشی موبایل اپل مدل iPhone 16 CH/A رم 8 گیگابایت رجیستر شده",
       "variants": [
@@ -358,7 +358,7 @@
       "stock": 21,
       "hasDiscount": true,
       "discount": 10,
-      "discountExpiresAt": "2026-10-30T23:59:59",
+      "discountExpiresAt": "2026-11-30T23:59:59",
       "image": "/productsImage/iphone16promax.webp",
       "desc": "گوشی موبایل اپل مدل iPhone 16 Pro Max ZA/A رم 8 گیگابایت رجیستر شده",
       "variants": [
@@ -405,7 +405,7 @@
       "stock": 19,
       "hasDiscount": true,
       "discount": 5,
-      "discountExpiresAt": "2026-10-28T23:59:59",
+      "discountExpiresAt": "2026-11-28T23:59:59",
       "image": "/productsImage/iphone17.webp",
       "desc": "گوشی موبایل اپل مد‌ل iPhone 17 CH/A رم 8 گیگابایت - رجیستر شده",
       "variants": [
@@ -711,7 +711,7 @@
       "stock": 6,
       "hasDiscount": true,
       "discount": 4,
-      "discountExpiresAt": "2026-10-22T23:59:59",
+      "discountExpiresAt": "2026-11-22T23:59:59",
       "image": "/productsImage/s25ultra.webp",
       "desc": "گوشی موبایل سامسونگ Galaxy S25 Ultra 5G رم 12 گیگابایت - کره",
       "variants": [
@@ -770,7 +770,7 @@
       "stock": 14,
       "hasDiscount": true,
       "discount": 8,
-      "discountExpiresAt": "2026-10-30T23:59:59",
+      "discountExpiresAt": "2026-11-30T23:59:59",
       "image": "/productsImage/a56.webp",
       "desc": "گوشی موبايل سامسونگ Galaxy A56 5G رم 8 گیگابایت - ویتنام",
       "variants": [
@@ -1431,7 +1431,7 @@
       "stock": 10,
       "hasDiscount": true,
       "discount": 10,
-      "discountExpiresAt": "2026-10-27T23:59:59",
+      "discountExpiresAt": "2026-11-27T23:59:59",
       "image": "/productsImage/vivobook15.webp",
       "desc": "لپ تاپ ایسوس 15.6 اینچی مدل Vivobook 15 X1504VA i7 1355U 16GB",
       "variants": [
@@ -1552,7 +1552,7 @@
       "stock": 3,
       "hasDiscount": true,
       "discount": 5,
-      "discountExpiresAt": "2026-10-25T23:59:59",
+      "discountExpiresAt": "2026-11-25T23:59:59",
       "image": "/productsImage/ideapadslim3.webp",
       "desc": "لپ تاپ لنوو 15.3 اینچی مدل IdeaPad Slim 3 i5 13420H 16GB",
       "variants": [
@@ -1677,7 +1677,7 @@
       "stock": 5,
       "hasDiscount": true,
       "discount": 10,
-      "discountExpiresAt": "2026-10-24T23:59:59",
+      "discountExpiresAt": "2026-11-24T23:59:59",
       "image": "/productsImage/macairm4.webp",
       "desc": "لپ تاپ اپل 15.3 اینچی مدل MacBook Air MW1J3 2025 LLA M4 16GB",
       "variants": [
@@ -1744,7 +1744,7 @@
       "stock": 26,
       "hasDiscount": true,
       "discount": 10,
-      "discountExpiresAt": "2026-10-28T23:59:59",
+      "discountExpiresAt": "2026-11-28T23:59:59",
       "price": 25000000,
       "image": "/productsImage/airpodpro2.webp",
       "desc": "هندزفری بلوتوثی اپل مدل AirPods Pro 2nd Generation"
@@ -1818,7 +1818,7 @@
       "stock": 29,
       "hasDiscount": true,
       "discount": 18,
-      "discountExpiresAt": "2026-10-29T23:59:59",
+      "discountExpiresAt": "2026-11-29T23:59:59",
       "price": 120000000,
       "image": "/productsImage/ps5slim.webp",
       "desc": "پلی استیشن 5 اسلیم دیجیتال اروپا CFI-2116"
@@ -1868,7 +1868,7 @@
       "stock": 42,
       "hasDiscount": true,
       "discount": 12,
-      "discountExpiresAt": "2026-10-26T23:59:59",
+      "discountExpiresAt": "2026-11-26T23:59:59",
       "price": 3000000,
       "image": "/productsImage/samsungcharger45w.webp",
       "desc": "شارژر دیواری سامسونگ 45 وات مدل EP-TA845 سه شاخه اروپا به همراه کابل دو سر تایپ سی - ویتنام"
